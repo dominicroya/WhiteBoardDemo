@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="543999" started-at="2023-04-05T09:54:16Z" finished-at="2023-04-05T10:03:20Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="543999" started-at="2023-04-05T09:54:16Z" finished-at="2023-04-05T10:03:20Z">
+      <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="SetUp" is-config="true" duration-ms="27009" started-at="2023-04-05T15:29:41Z" finished-at="2023-04-05T15:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="GizmosTool()[pri:17, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="GizmosTool" duration-ms="23192" started-at="2023-04-05T15:30:08Z" finished-at="2023-04-05T15:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GizmosTool -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:30:31Z" finished-at="2023-04-05T15:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GizmosTool status=SUCCESS method=RightToolBarFunctionalities.GizmosTool()[pri:17, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="WidgetYouTube()[pri:18, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="WidgetYouTube" duration-ms="36380" started-at="2023-04-05T15:30:31Z" finished-at="2023-04-05T15:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WidgetYouTube -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:31:07Z" finished-at="2023-04-05T15:31:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WidgetYouTube status=SUCCESS method=RightToolBarFunctionalities.WidgetYouTube()[pri:18, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="tearDown" is-config="true" duration-ms="1132" started-at="2023-04-05T15:31:07Z" finished-at="2023-04-05T15:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCaseWhiteBoard.RightToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="SetUp" is-config="true" duration-ms="28667" started-at="2023-04-05T15:24:16Z" finished-at="2023-04-05T15:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="PenDraw()[pri:1, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="PenDraw" duration-ms="20231" started-at="2023-04-05T15:24:45Z" finished-at="2023-04-05T15:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PenDraw -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:25:05Z" finished-at="2023-04-05T15:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PenDraw status=SUCCESS method=LeftToolBarFunctionalities.PenDraw()[pri:1, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ClicknType()[pri:2, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ClicknType" duration-ms="11857" started-at="2023-04-05T15:25:05Z" finished-at="2023-04-05T15:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClicknType -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:25:17Z" finished-at="2023-04-05T15:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClicknType status=SUCCESS method=LeftToolBarFunctionalities.ClicknType()[pri:2, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="GridTool()[pri:3, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="GridTool" duration-ms="9609" started-at="2023-04-05T15:25:17Z" finished-at="2023-04-05T15:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridTool -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:25:27Z" finished-at="2023-04-05T15:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GridTool status=SUCCESS method=LeftToolBarFunctionalities.GridTool()[pri:3, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ClearGrid()[pri:4, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ClearGrid" duration-ms="12903" started-at="2023-04-05T15:25:27Z" finished-at="2023-04-05T15:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearGrid -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:25:40Z" finished-at="2023-04-05T15:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClearGrid status=SUCCESS method=LeftToolBarFunctionalities.ClearGrid()[pri:4, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ContentUpload()[pri:5, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ContentUpload" duration-ms="26099" started-at="2023-04-05T15:25:40Z" finished-at="2023-04-05T15:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentUpload -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:26:06Z" finished-at="2023-04-05T15:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContentUpload status=SUCCESS method=LeftToolBarFunctionalities.ContentUpload()[pri:5, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ShapeTriangle()[pri:6, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ShapeTriangle" duration-ms="7161" started-at="2023-04-05T15:26:06Z" finished-at="2023-04-05T15:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShapeTriangle -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:13Z" finished-at="2023-04-05T15:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShapeTriangle status=SUCCESS method=LeftToolBarFunctionalities.ShapeTriangle()[pri:6, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ShapeCircle()[pri:7, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ShapeCircle" duration-ms="6778" started-at="2023-04-05T15:26:13Z" finished-at="2023-04-05T15:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShapeCircle -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:20Z" finished-at="2023-04-05T15:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShapeCircle status=SUCCESS method=LeftToolBarFunctionalities.ShapeCircle()[pri:7, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ShapePolygon()[pri:8, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ShapePolygon" duration-ms="6970" started-at="2023-04-05T15:26:20Z" finished-at="2023-04-05T15:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShapePolygon -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:27Z" finished-at="2023-04-05T15:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShapePolygon status=SUCCESS method=LeftToolBarFunctionalities.ShapePolygon()[pri:8, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="WhiteOut()[pri:9, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="WhiteOut" duration-ms="12318" started-at="2023-04-05T15:26:27Z" finished-at="2023-04-05T15:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhiteOut -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:39Z" finished-at="2023-04-05T15:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhiteOut status=SUCCESS method=LeftToolBarFunctionalities.WhiteOut()[pri:9, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="tearDown" is-config="true" duration-ms="721" started-at="2023-04-05T15:26:39Z" finished-at="2023-04-05T15:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCaseWhiteBoard.LeftToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="SetUp" is-config="true" duration-ms="26086" started-at="2023-04-05T15:31:08Z" finished-at="2023-04-05T15:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Login()[pri:20, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="Login" duration-ms="45102" started-at="2023-04-05T15:31:34Z" finished-at="2023-04-05T15:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:32:19Z" finished-at="2023-04-05T15:32:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LowerToolBarFunctionalities.Login()[pri:20, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="PageNation()[pri:21, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="PageNation" duration-ms="44923" started-at="2023-04-05T15:32:19Z" finished-at="2023-04-05T15:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageNation -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:33:04Z" finished-at="2023-04-05T15:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageNation status=SUCCESS method=LowerToolBarFunctionalities.PageNation()[pri:21, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="RenameBoard()[pri:22, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="RenameBoard" duration-ms="15075" started-at="2023-04-05T15:33:04Z" finished-at="2023-04-05T15:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RenameBoard -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:33:19Z" finished-at="2023-04-05T15:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RenameBoard status=SUCCESS method=LowerToolBarFunctionalities.RenameBoard()[pri:22, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="tearDown" is-config="true" duration-ms="805" started-at="2023-04-05T15:33:19Z" finished-at="2023-04-05T15:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCaseWhiteBoard.LowerToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="SetUp" is-config="true" duration-ms="27779" started-at="2023-04-05T15:26:40Z" finished-at="2023-04-05T15:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Lesson()[pri:10, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="Lesson" duration-ms="10771" started-at="2023-04-05T15:27:07Z" finished-at="2023-04-05T15:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lesson -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:27:18Z" finished-at="2023-04-05T15:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Lesson status=SUCCESS method=TopToolBarFunctionalities.Lesson()[pri:10, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="StudentDemo()[pri:11, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="StudentDemo" duration-ms="29873" started-at="2023-04-05T15:27:18Z" finished-at="2023-04-05T15:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentDemo -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:27:48Z" finished-at="2023-04-05T15:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=StudentDemo status=SUCCESS method=TopToolBarFunctionalities.StudentDemo()[pri:11, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="MyBoardDownload()[pri:12, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="MyBoardDownload" duration-ms="8360" started-at="2023-04-05T15:27:48Z" finished-at="2023-04-05T15:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyBoardDownload -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:27:56Z" finished-at="2023-04-05T15:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MyBoardDownload status=SUCCESS method=TopToolBarFunctionalities.MyBoardDownload()[pri:12, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="MyBoardUpload()[pri:13, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="MyBoardUpload" duration-ms="25778" started-at="2023-04-05T15:27:56Z" finished-at="2023-04-05T15:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyBoardUpload -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:28:22Z" finished-at="2023-04-05T15:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MyBoardUpload status=SUCCESS method=TopToolBarFunctionalities.MyBoardUpload()[pri:13, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="UndoRedoZoom()[pri:14, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="UndoRedoZoom" duration-ms="38831" started-at="2023-04-05T15:28:22Z" finished-at="2023-04-05T15:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UndoRedoZoom -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:29:01Z" finished-at="2023-04-05T15:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UndoRedoZoom status=SUCCESS method=TopToolBarFunctionalities.UndoRedoZoom()[pri:14, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="LanguageChange()[pri:15, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="LanguageChange" duration-ms="6818" started-at="2023-04-05T15:29:01Z" finished-at="2023-04-05T15:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanguageChange -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:29:08Z" finished-at="2023-04-05T15:29:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LanguageChange status=SUCCESS method=TopToolBarFunctionalities.LanguageChange()[pri:15, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ColourPenThickness()[pri:16, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="ColourPenThickness" duration-ms="31887" started-at="2023-04-05T15:29:08Z" finished-at="2023-04-05T15:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ColourPenThickness -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="2" started-at="2023-04-05T15:29:40Z" finished-at="2023-04-05T15:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ColourPenThickness status=SUCCESS method=TopToolBarFunctionalities.ColourPenThickness()[pri:16, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="tearDown" is-config="true" duration-ms="824" started-at="2023-04-05T15:29:40Z" finished-at="2023-04-05T15:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCaseWhiteBoard.TopToolBarFunctionalities -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

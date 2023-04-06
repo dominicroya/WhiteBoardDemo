@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.UtilitiesWhiteBoard.ListenersTestNG"/>
+  </listeners>
+  <test name="chromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities"/>
+    </classes>
+  </test> <!-- chromeTest -->
+</suite> <!-- Failed suite [Suite] -->
