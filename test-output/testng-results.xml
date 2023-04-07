@@ -1,366 +1,685 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="21" passed="21">
+<testng-results skipped="0" failed="4" total="22" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="543999" started-at="2023-04-05T09:54:16Z" finished-at="2023-04-05T10:03:20Z">
+  <suite name="Suite" duration-ms="456402" started-at="2023-04-07T10:35:12Z" finished-at="2023-04-07T10:42:48Z">
     <groups>
     </groups>
-    <test name="chromeTest" duration-ms="543999" started-at="2023-04-05T09:54:16Z" finished-at="2023-04-05T10:03:20Z">
+    <test name="Functional Test" duration-ms="456402" started-at="2023-04-07T10:35:12Z" finished-at="2023-04-07T10:42:48Z">
       <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="SetUp" is-config="true" duration-ms="27009" started-at="2023-04-05T15:29:41Z" finished-at="2023-04-05T15:30:08Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8]" name="SetUp" is-config="true" duration-ms="27338" started-at="2023-04-07T16:10:42Z" finished-at="2023-04-07T16:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="GizmosTool()[pri:17, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="GizmosTool" duration-ms="23192" started-at="2023-04-05T15:30:08Z" finished-at="2023-04-05T15:30:31Z">
+        <test-method status="PASS" signature="GizmosTool()[pri:17, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8]" name="GizmosTool" duration-ms="23206" started-at="2023-04-07T16:11:09Z" finished-at="2023-04-07T16:11:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GizmosTool -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:30:31Z" finished-at="2023-04-05T15:30:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=GizmosTool status=SUCCESS method=RightToolBarFunctionalities.GizmosTool()[pri:17, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="WidgetYouTube()[pri:18, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="WidgetYouTube" duration-ms="36380" started-at="2023-04-05T15:30:31Z" finished-at="2023-04-05T15:31:07Z">
+        <test-method status="PASS" signature="WidgetYouTube()[pri:18, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8]" name="WidgetYouTube" duration-ms="36289" started-at="2023-04-07T16:11:32Z" finished-at="2023-04-07T16:12:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WidgetYouTube -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:31:07Z" finished-at="2023-04-05T15:31:07Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:11:32Z" finished-at="2023-04-07T16:11:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WidgetYouTube status=SUCCESS method=RightToolBarFunctionalities.WidgetYouTube()[pri:18, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1] output={null}]]]>
+                <![CDATA[[TestResult name=GizmosTool status=SUCCESS method=RightToolBarFunctionalities.GizmosTool()[pri:17, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@58ceff1]" name="tearDown" is-config="true" duration-ms="1132" started-at="2023-04-05T15:31:07Z" finished-at="2023-04-05T15:31:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8]" name="tearDown" is-config="true" duration-ms="898" started-at="2023-04-07T16:12:08Z" finished-at="2023-04-07T16:12:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:12:08Z" finished-at="2023-04-07T16:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WidgetYouTube status=SUCCESS method=RightToolBarFunctionalities.WidgetYouTube()[pri:18, instance:com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
       </class> <!-- com.TestCaseWhiteBoard.RightToolBarFunctionalities -->
-      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="SetUp" is-config="true" duration-ms="28667" started-at="2023-04-05T15:24:16Z" finished-at="2023-04-05T15:24:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="PenDraw()[pri:1, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="PenDraw" duration-ms="20231" started-at="2023-04-05T15:24:45Z" finished-at="2023-04-05T15:25:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PenDraw -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:25:05Z" finished-at="2023-04-05T15:25:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=PenDraw status=SUCCESS method=LeftToolBarFunctionalities.PenDraw()[pri:1, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ClicknType()[pri:2, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ClicknType" duration-ms="11857" started-at="2023-04-05T15:25:05Z" finished-at="2023-04-05T15:25:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClicknType -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:25:17Z" finished-at="2023-04-05T15:25:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClicknType status=SUCCESS method=LeftToolBarFunctionalities.ClicknType()[pri:2, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="GridTool()[pri:3, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="GridTool" duration-ms="9609" started-at="2023-04-05T15:25:17Z" finished-at="2023-04-05T15:25:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GridTool -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:25:27Z" finished-at="2023-04-05T15:25:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=GridTool status=SUCCESS method=LeftToolBarFunctionalities.GridTool()[pri:3, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ClearGrid()[pri:4, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ClearGrid" duration-ms="12903" started-at="2023-04-05T15:25:27Z" finished-at="2023-04-05T15:25:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClearGrid -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:25:40Z" finished-at="2023-04-05T15:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClearGrid status=SUCCESS method=LeftToolBarFunctionalities.ClearGrid()[pri:4, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ContentUpload()[pri:5, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ContentUpload" duration-ms="26099" started-at="2023-04-05T15:25:40Z" finished-at="2023-04-05T15:26:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ContentUpload -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:26:06Z" finished-at="2023-04-05T15:26:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ContentUpload status=SUCCESS method=LeftToolBarFunctionalities.ContentUpload()[pri:5, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ShapeTriangle()[pri:6, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ShapeTriangle" duration-ms="7161" started-at="2023-04-05T15:26:06Z" finished-at="2023-04-05T15:26:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShapeTriangle -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:13Z" finished-at="2023-04-05T15:26:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ShapeTriangle status=SUCCESS method=LeftToolBarFunctionalities.ShapeTriangle()[pri:6, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ShapeCircle()[pri:7, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ShapeCircle" duration-ms="6778" started-at="2023-04-05T15:26:13Z" finished-at="2023-04-05T15:26:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShapeCircle -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:20Z" finished-at="2023-04-05T15:26:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ShapeCircle status=SUCCESS method=LeftToolBarFunctionalities.ShapeCircle()[pri:7, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ShapePolygon()[pri:8, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="ShapePolygon" duration-ms="6970" started-at="2023-04-05T15:26:20Z" finished-at="2023-04-05T15:26:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShapePolygon -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:27Z" finished-at="2023-04-05T15:26:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ShapePolygon status=SUCCESS method=LeftToolBarFunctionalities.ShapePolygon()[pri:8, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="WhiteOut()[pri:9, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="WhiteOut" duration-ms="12318" started-at="2023-04-05T15:26:27Z" finished-at="2023-04-05T15:26:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WhiteOut -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:26:39Z" finished-at="2023-04-05T15:26:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=WhiteOut status=SUCCESS method=LeftToolBarFunctionalities.WhiteOut()[pri:9, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@1d251891]" name="tearDown" is-config="true" duration-ms="721" started-at="2023-04-05T15:26:39Z" finished-at="2023-04-05T15:26:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestCaseWhiteBoard.LeftToolBarFunctionalities -->
       <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="SetUp" is-config="true" duration-ms="26086" started-at="2023-04-05T15:31:08Z" finished-at="2023-04-05T15:31:34Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="SetUp" is-config="true" duration-ms="27892" started-at="2023-04-07T16:12:09Z" finished-at="2023-04-07T16:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Login()[pri:20, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="Login" duration-ms="45102" started-at="2023-04-05T15:31:34Z" finished-at="2023-04-05T15:32:19Z">
+        <test-method status="FAIL" signature="InvalidUser()[pri:19, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="InvalidUser" duration-ms="3707" started-at="2023-04-07T16:12:37Z" finished-at="2023-04-07T16:12:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiAlert-message']"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=xpath, value=//div[@class='MuiAlert-message']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiAlert-message']"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=xpath, value=//div[@class='MuiAlert-message']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at com.POMWhiteBoard.LoginPOM.getToastMessage(LoginPOM.java:63)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.InvalidUser(LowerToolBarFunctionalities.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUser -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="screenShot" is-config="true" duration-ms="237" started-at="2023-04-07T16:12:41Z" finished-at="2023-04-07T16:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidUser status=FAILURE method=LowerToolBarFunctionalities.InvalidUser()[pri:19, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="FAIL" signature="Login()[pri:20, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="Login" duration-ms="2070" started-at="2023-04-07T16:12:41Z" finished-at="2023-04-07T16:12:43Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="settingsButton"]"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=xpath, value=//*[@id="settingsButton"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="settingsButton"]"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=xpath, value=//*[@id="settingsButton"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.POMWhiteBoard.LoginPOM.Settings(LoginPOM.java:79)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.Login(LowerToolBarFunctionalities.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:32:19Z" finished-at="2023-04-05T15:32:19Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="screenShot" is-config="true" duration-ms="1494" started-at="2023-04-07T16:12:43Z" finished-at="2023-04-07T16:12:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=LowerToolBarFunctionalities.Login()[pri:20, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502] output={null}]]]>
+                <![CDATA[[TestResult name=Login status=FAILURE method=LowerToolBarFunctionalities.Login()[pri:20, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="PageNation()[pri:21, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="PageNation" duration-ms="44923" started-at="2023-04-05T15:32:19Z" finished-at="2023-04-05T15:33:04Z">
+        <test-method status="FAIL" signature="PageNation()[pri:21, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="PageNation" duration-ms="56" started-at="2023-04-07T16:12:45Z" finished-at="2023-04-07T16:12:45Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="drawToolsIcon"]/button[2]"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=xpath, value=//*[@id="drawToolsIcon"]/button[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="drawToolsIcon"]/button[2]"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=xpath, value=//*[@id="drawToolsIcon"]/button[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.POMWhiteBoard.DrawingToolsPom.drawingBtnClick(DrawingToolsPom.java:86)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.PageNation(LowerToolBarFunctionalities.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageNation -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:33:04Z" finished-at="2023-04-05T15:33:04Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="screenShot" is-config="true" duration-ms="1355" started-at="2023-04-07T16:12:45Z" finished-at="2023-04-07T16:12:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=PageNation status=SUCCESS method=LowerToolBarFunctionalities.PageNation()[pri:21, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502] output={null}]]]>
+                <![CDATA[[TestResult name=PageNation status=FAILURE method=LowerToolBarFunctionalities.PageNation()[pri:21, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="RenameBoard()[pri:22, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="RenameBoard" duration-ms="15075" started-at="2023-04-05T15:33:04Z" finished-at="2023-04-05T15:33:19Z">
+        <test-method status="FAIL" signature="RenameBoard()[pri:22, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="RenameBoard" duration-ms="100" started-at="2023-04-07T16:12:46Z" finished-at="2023-04-07T16:12:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#bname"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=id, value=bname}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#bname"}
+  (Session info: MicrosoftEdge=111.0.1661.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DTBLR01LP124', ip: '192.168.137.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64695}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f693be3e28f37242d03c634986c0457a
+*** Element info: {Using=id, value=bname}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.sendKeys(Unknown Source)
+	at com.POMWhiteBoard.TopToolBarPOM.singleBoardName(TopToolBarPOM.java:135)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.RenameBoard(LowerToolBarFunctionalities.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RenameBoard -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:33:19Z" finished-at="2023-04-05T15:33:19Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="screenShot" is-config="true" duration-ms="1311" started-at="2023-04-07T16:12:46Z" finished-at="2023-04-07T16:12:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RenameBoard status=SUCCESS method=LowerToolBarFunctionalities.RenameBoard()[pri:22, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502] output={null}]]]>
+                <![CDATA[[TestResult name=RenameBoard status=FAILURE method=LowerToolBarFunctionalities.RenameBoard()[pri:22, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@7c30a502]" name="tearDown" is-config="true" duration-ms="805" started-at="2023-04-05T15:33:19Z" finished-at="2023-04-05T15:33:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848]" name="tearDown" is-config="true" duration-ms="872" started-at="2023-04-07T16:12:48Z" finished-at="2023-04-07T16:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestCaseWhiteBoard.LowerToolBarFunctionalities -->
-      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="SetUp" is-config="true" duration-ms="27779" started-at="2023-04-05T15:26:40Z" finished-at="2023-04-05T15:27:07Z">
+      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities">
+        <test-method status="PASS" signature="ExtentReport()[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ExtentReport" is-config="true" duration-ms="241" started-at="2023-04-07T16:05:12Z" finished-at="2023-04-07T16:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="SetUp" is-config="true" duration-ms="29979" started-at="2023-04-07T16:05:12Z" finished-at="2023-04-07T16:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Lesson()[pri:10, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="Lesson" duration-ms="10771" started-at="2023-04-05T15:27:07Z" finished-at="2023-04-05T15:27:18Z">
+        <test-method status="PASS" signature="PenDraw()[pri:1, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="PenDraw" duration-ms="19641" started-at="2023-04-07T16:05:42Z" finished-at="2023-04-07T16:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PenDraw -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-07T16:06:02Z" finished-at="2023-04-07T16:06:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PenDraw status=SUCCESS method=LeftToolBarFunctionalities.PenDraw()[pri:1, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ClicknType()[pri:2, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ClicknType" duration-ms="11816" started-at="2023-04-07T16:06:02Z" finished-at="2023-04-07T16:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClicknType -->
+        <test-method status="PASS" signature="GridTool()[pri:3, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="GridTool" duration-ms="9497" started-at="2023-04-07T16:06:14Z" finished-at="2023-04-07T16:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridTool -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:06:14Z" finished-at="2023-04-07T16:06:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClicknType status=SUCCESS method=LeftToolBarFunctionalities.ClicknType()[pri:2, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-07T16:06:23Z" finished-at="2023-04-07T16:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GridTool status=SUCCESS method=LeftToolBarFunctionalities.GridTool()[pri:3, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ClearGrid()[pri:4, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ClearGrid" duration-ms="12867" started-at="2023-04-07T16:06:23Z" finished-at="2023-04-07T16:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearGrid -->
+        <test-method status="PASS" signature="ContentUpload()[pri:5, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ContentUpload" duration-ms="25970" started-at="2023-04-07T16:06:36Z" finished-at="2023-04-07T16:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentUpload -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:06:36Z" finished-at="2023-04-07T16:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClearGrid status=SUCCESS method=LeftToolBarFunctionalities.ClearGrid()[pri:4, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-07T16:07:02Z" finished-at="2023-04-07T16:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContentUpload status=SUCCESS method=LeftToolBarFunctionalities.ContentUpload()[pri:5, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ShapeTriangle()[pri:6, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ShapeTriangle" duration-ms="7062" started-at="2023-04-07T16:07:02Z" finished-at="2023-04-07T16:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShapeTriangle -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:07:09Z" finished-at="2023-04-07T16:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShapeTriangle status=SUCCESS method=LeftToolBarFunctionalities.ShapeTriangle()[pri:6, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ShapeCircle()[pri:7, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ShapeCircle" duration-ms="6735" started-at="2023-04-07T16:07:09Z" finished-at="2023-04-07T16:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShapeCircle -->
+        <test-method status="PASS" signature="ShapePolygon()[pri:8, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="ShapePolygon" duration-ms="6921" started-at="2023-04-07T16:07:16Z" finished-at="2023-04-07T16:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShapePolygon -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:07:16Z" finished-at="2023-04-07T16:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShapeCircle status=SUCCESS method=LeftToolBarFunctionalities.ShapeCircle()[pri:7, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:07:23Z" finished-at="2023-04-07T16:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShapePolygon status=SUCCESS method=LeftToolBarFunctionalities.ShapePolygon()[pri:8, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="WhiteOut()[pri:9, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="WhiteOut" duration-ms="12289" started-at="2023-04-07T16:07:23Z" finished-at="2023-04-07T16:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhiteOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="tearDown" is-config="true" duration-ms="850" started-at="2023-04-07T16:07:35Z" finished-at="2023-04-07T16:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:07:35Z" finished-at="2023-04-07T16:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhiteOut status=SUCCESS method=LeftToolBarFunctionalities.WhiteOut()[pri:9, instance:com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.TestCaseWhiteBoard.LeftToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="SetUp" is-config="true" duration-ms="27799" started-at="2023-04-07T16:07:36Z" finished-at="2023-04-07T16:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Lesson()[pri:10, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="Lesson" duration-ms="10740" started-at="2023-04-07T16:08:04Z" finished-at="2023-04-07T16:08:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Lesson -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:27:18Z" finished-at="2023-04-05T15:27:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Lesson status=SUCCESS method=TopToolBarFunctionalities.Lesson()[pri:10, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="StudentDemo()[pri:11, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="StudentDemo" duration-ms="29873" started-at="2023-04-05T15:27:18Z" finished-at="2023-04-05T15:27:48Z">
+        <test-method status="PASS" signature="StudentDemo()[pri:11, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="StudentDemo" duration-ms="29881" started-at="2023-04-07T16:08:14Z" finished-at="2023-04-07T16:08:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StudentDemo -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:27:48Z" finished-at="2023-04-05T15:27:48Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:08:14Z" finished-at="2023-04-07T16:08:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=StudentDemo status=SUCCESS method=TopToolBarFunctionalities.StudentDemo()[pri:11, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=Lesson status=SUCCESS method=TopToolBarFunctionalities.Lesson()[pri:10, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="MyBoardDownload()[pri:12, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="MyBoardDownload" duration-ms="8360" started-at="2023-04-05T15:27:48Z" finished-at="2023-04-05T15:27:56Z">
+        <test-method status="PASS" signature="MyBoardDownload()[pri:12, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="MyBoardDownload" duration-ms="11394" started-at="2023-04-07T16:08:44Z" finished-at="2023-04-07T16:08:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyBoardDownload -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-05T15:27:56Z" finished-at="2023-04-05T15:27:56Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:08:44Z" finished-at="2023-04-07T16:08:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MyBoardDownload status=SUCCESS method=TopToolBarFunctionalities.MyBoardDownload()[pri:12, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=StudentDemo status=SUCCESS method=TopToolBarFunctionalities.StudentDemo()[pri:11, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="MyBoardUpload()[pri:13, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="MyBoardUpload" duration-ms="25778" started-at="2023-04-05T15:27:56Z" finished-at="2023-04-05T15:28:22Z">
+        <test-method status="PASS" signature="MyBoardUpload()[pri:13, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="MyBoardUpload" duration-ms="27696" started-at="2023-04-07T16:08:56Z" finished-at="2023-04-07T16:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyBoardUpload -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:28:22Z" finished-at="2023-04-05T15:28:22Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:08:56Z" finished-at="2023-04-07T16:08:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MyBoardUpload status=SUCCESS method=TopToolBarFunctionalities.MyBoardUpload()[pri:13, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=MyBoardDownload status=SUCCESS method=TopToolBarFunctionalities.MyBoardDownload()[pri:12, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="UndoRedoZoom()[pri:14, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="UndoRedoZoom" duration-ms="38831" started-at="2023-04-05T15:28:22Z" finished-at="2023-04-05T15:29:01Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-07T16:09:23Z" finished-at="2023-04-07T16:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MyBoardUpload status=SUCCESS method=TopToolBarFunctionalities.MyBoardUpload()[pri:13, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="UndoRedoZoom()[pri:14, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="UndoRedoZoom" duration-ms="38653" started-at="2023-04-07T16:09:23Z" finished-at="2023-04-07T16:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UndoRedoZoom -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:29:01Z" finished-at="2023-04-05T15:29:01Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:10:02Z" finished-at="2023-04-07T16:10:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UndoRedoZoom status=SUCCESS method=TopToolBarFunctionalities.UndoRedoZoom()[pri:14, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=UndoRedoZoom status=SUCCESS method=TopToolBarFunctionalities.UndoRedoZoom()[pri:14, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="LanguageChange()[pri:15, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="LanguageChange" duration-ms="6818" started-at="2023-04-05T15:29:01Z" finished-at="2023-04-05T15:29:08Z">
+        <test-method status="PASS" signature="LanguageChange()[pri:15, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="LanguageChange" duration-ms="6996" started-at="2023-04-07T16:10:02Z" finished-at="2023-04-07T16:10:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanguageChange -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-05T15:29:08Z" finished-at="2023-04-05T15:29:08Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="0" started-at="2023-04-07T16:10:09Z" finished-at="2023-04-07T16:10:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LanguageChange status=SUCCESS method=TopToolBarFunctionalities.LanguageChange()[pri:15, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=LanguageChange status=SUCCESS method=TopToolBarFunctionalities.LanguageChange()[pri:15, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="ColourPenThickness()[pri:16, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="ColourPenThickness" duration-ms="31887" started-at="2023-04-05T15:29:08Z" finished-at="2023-04-05T15:29:40Z">
+        <test-method status="PASS" signature="ColourPenThickness()[pri:16, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="ColourPenThickness" duration-ms="31871" started-at="2023-04-07T16:10:09Z" finished-at="2023-04-07T16:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColourPenThickness -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="screenShot" is-config="true" duration-ms="2" started-at="2023-04-05T15:29:40Z" finished-at="2023-04-05T15:29:40Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="screenShot" is-config="true" duration-ms="1" started-at="2023-04-07T16:10:41Z" finished-at="2023-04-07T16:10:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ColourPenThickness status=SUCCESS method=TopToolBarFunctionalities.ColourPenThickness()[pri:16, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564] output={null}]]]>
+                <![CDATA[[TestResult name=ColourPenThickness status=SUCCESS method=TopToolBarFunctionalities.ColourPenThickness()[pri:16, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@48140564]" name="tearDown" is-config="true" duration-ms="824" started-at="2023-04-05T15:29:40Z" finished-at="2023-04-05T15:29:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85]" name="tearDown" is-config="true" duration-ms="865" started-at="2023-04-07T16:10:41Z" finished-at="2023-04-07T16:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestCaseWhiteBoard.TopToolBarFunctionalities -->
-    </test> <!-- chromeTest -->
+    </test> <!-- Functional Test -->
   </suite> <!-- Suite -->
 </testng-results>

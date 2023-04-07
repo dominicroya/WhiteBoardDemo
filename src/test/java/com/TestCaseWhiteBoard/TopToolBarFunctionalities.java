@@ -78,7 +78,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 		test.log(Status.INFO, "Upload a file Started");
 		UploadPOM upload_obj = new UploadPOM(driver);
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		upload_obj.uploadClick();
 		System.out.println("Upload menu Clicked");
 		

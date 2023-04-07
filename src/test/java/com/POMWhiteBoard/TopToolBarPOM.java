@@ -37,7 +37,7 @@ public class TopToolBarPOM {
 	WebElement downloadPDF;
 
 	@FindBy(xpath= "//h6[.='My Board']")
-	WebElement myBoardPDF;
+	WebElement myBoardPDF;  
 
 	@FindBy(xpath = "//img[@src=\"/tools/undo.svg\"]")
 	WebElement undo;
@@ -124,7 +124,8 @@ public class TopToolBarPOM {
 		return canvasMode.getText();
 	}
 
-	public void DownloadPDF() {
+	public void DownloadPDF() throws InterruptedException {
+		Thread.sleep(3000);
 		downloadUI.click();
 		downloadPDF.click();
 		myBoardPDF.click();

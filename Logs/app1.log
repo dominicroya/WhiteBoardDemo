@@ -1,307 +1,50 @@
-[INFO ] 2023-04-93 15:28:08.359 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 15:28:08.370 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 15:28:08.371 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 15:28:30.915 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 15:28:30.951 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 15:28:38.083 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-93 15:28:38.590 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 15:28:45.163 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 15:28:45.186 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 15:28:45.218 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 15:28:45.239 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 15:28:45.256 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 15:28:45.277 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 15:28:45.321 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 15:28:45.350 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 15:30:19.385 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 15:30:19.388 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 15:30:19.388 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 15:30:41.894 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 15:30:41.924 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-93 15:31:01.506 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-93 15:31:13.357 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-93 15:31:13.391 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 15:31:23.008 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 15:31:35.917 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 15:31:58.695 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-93 15:32:02.108 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 15:32:09.176 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-93 15:32:09.211 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 15:32:15.937 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-93 15:32:15.979 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 15:32:22.854 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-93 15:32:22.881 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 15:32:39.804 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 15:32:39.804 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 15:32:39.805 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 15:33:02.310 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 15:35:39.794 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 15:35:39.794 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 15:35:39.794 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 15:36:02.348 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 15:37:07.633 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 15:37:07.633 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 15:37:07.633 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 15:37:30.126 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 15:55:47.934 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 15:55:47.938 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 15:55:47.938 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 15:56:10.501 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 15:56:10.564 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-93 15:56:32.412 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-93 15:56:44.628 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-93 15:56:44.657 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 15:56:54.224 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 15:57:07.070 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 15:57:29.775 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-93 15:57:33.202 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 15:57:40.160 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-93 15:57:40.185 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 15:57:46.992 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-93 15:57:47.038 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 15:57:53.958 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-93 15:57:53.998 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 17:19:22.604 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 17:19:22.607 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 17:19:22.607 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 17:19:45.158 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:01:25.661 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:01:25.665 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:01:25.665 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:01:48.492 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:01:48.517 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-93 18:02:09.270 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-93 18:02:21.232 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-93 18:02:21.269 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 18:02:30.923 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 18:02:44.178 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 18:02:53.832 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 18:03:03.078 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 18:03:12.993 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 18:03:14.830 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 18:03:14.856 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 18:03:15.761 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 18:03:15.843 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 18:03:15.875 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 18:03:17.028 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 18:03:17.054 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 18:03:17.086 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 18:03:19.195 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 18:03:19.236 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 18:03:19.272 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 18:03:25.691 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:03:25.692 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:03:25.692 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:03:48.168 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:06:27.008 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:06:27.008 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:06:27.009 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:06:49.564 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:07:53.737 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:07:53.737 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:07:53.737 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:08:16.190 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:12:18.665 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:12:18.670 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:12:18.671 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:12:41.208 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:12:41.225 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-93 18:13:00.694 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-93 18:13:12.528 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-93 18:13:12.566 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 18:13:22.100 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 18:13:34.976 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 18:13:57.609 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-93 18:14:01.066 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 18:14:08.083 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-93 18:14:08.115 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 18:14:14.888 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-93 18:14:14.934 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 18:14:21.862 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-93 18:14:21.891 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 18:15:24.687 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:15:24.689 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:15:24.690 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:15:47.152 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:15:47.171 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-93 18:16:06.913 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-93 18:16:18.751 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-93 18:16:18.789 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 18:16:28.386 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-93 18:16:41.282 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-93 18:17:03.727 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-93 18:17:07.182 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-93 18:17:14.142 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-93 18:17:14.170 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-93 18:17:20.948 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-93 18:17:20.994 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-93 18:17:27.900 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-93 18:17:27.930 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-93 18:17:44.286 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:17:44.286 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:17:44.286 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:18:06.758 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:20:44.499 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:20:44.501 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:20:44.501 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:21:06.974 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-93 18:22:11.810 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-93 18:22:11.810 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-93 18:22:11.810 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-93 18:22:34.300 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 14:25:34.110 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 14:25:34.113 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 14:25:34.113 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 14:25:56.625 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 14:29:14.546 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 14:29:14.548 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 14:29:14.549 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 14:29:37.191 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 14:34:30.504 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 14:34:30.508 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 14:34:30.508 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 14:34:53.166 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 14:36:16.318 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 14:36:16.320 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 14:36:16.320 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 14:36:38.892 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 14:38:16.358 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 14:38:16.362 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 14:38:16.362 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 14:38:38.877 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 15:07:46.319 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 15:07:46.323 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 15:07:46.323 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 15:08:09.029 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 15:17:40.779 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 15:17:40.784 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 15:17:40.784 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 15:18:03.311 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 15:40:50.855 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 15:40:50.858 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 15:40:50.858 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 15:41:13.522 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 15:44:40.833 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 15:44:40.836 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 15:44:40.837 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 15:45:03.398 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 16:15:13.090 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 16:15:13.094 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 16:15:13.095 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 16:15:35.629 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 16:16:18.792 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 16:16:18.795 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 16:16:18.795 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 16:16:41.323 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 18:25:26.354 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 18:25:26.359 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 18:25:26.360 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 18:25:49.015 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 18:25:49.044 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-94 18:26:09.021 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-94 18:26:22.387 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-94 18:26:22.417 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-94 18:26:31.997 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-94 18:26:44.899 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-94 18:27:07.685 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-94 18:27:11.132 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-94 18:27:18.181 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-94 18:27:18.214 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-94 18:27:25.031 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-94 18:27:25.085 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-94 18:27:32.016 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-94 18:27:32.052 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-94 18:27:49.269 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 18:27:49.269 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 18:27:49.269 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 18:28:11.724 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 18:30:50.384 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 18:30:50.384 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 18:30:50.385 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 18:31:12.867 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 18:32:17.450 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 18:32:17.450 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 18:32:17.450 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 18:32:39.929 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 18:37:01.573 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-94 18:37:01.582 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-94 18:37:01.582 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-94 18:37:24.074 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-94 18:37:24.092 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-94 18:37:43.665 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-94 18:37:55.670 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-94 18:37:55.712 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-94 18:38:05.523 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-94 18:38:18.346 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-94 18:38:40.923 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-94 18:38:44.314 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-94 18:38:51.325 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-94 18:38:51.360 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-94 18:38:58.136 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-94 18:38:58.176 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-94 18:39:05.015 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-94 18:39:05.044 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-95 14:56:45.277 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-95 14:56:45.282 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-95 14:56:45.282 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-95 14:57:07.932 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-95 14:57:07.959 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-95 14:57:27.671 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-95 14:57:39.674 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-95 14:57:39.696 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-95 14:57:49.289 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-95 14:58:02.336 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-95 14:58:25.072 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-95 14:58:28.463 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-95 14:58:35.909 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-95 14:58:35.932 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-95 15:24:22.792 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-95 15:24:22.796 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-95 15:24:22.796 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-95 15:24:45.394 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-95 15:24:45.420 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
-[INFO ] 2023-04-95 15:25:05.637 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
-[ERROR] 2023-04-95 15:25:17.456 [main] LoggerLoad - Canvas is in theText Text Mode
-[INFO ] 2023-04-95 15:25:17.491 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-95 15:25:27.103 [main] LoggerLoad - Applying Grid on the Canvas 
-[INFO ] 2023-04-95 15:25:40.007 [main] LoggerLoad - Uploading a picture on the Canvas 
-[INFO ] 2023-04-95 15:26:02.728 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-95 15:26:06.107 [main] LoggerLoad - Placing a shape triangle on the Canvas 
-[INFO ] 2023-04-95 15:26:13.235 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-95 15:26:13.270 [main] LoggerLoad - Placing a shape Circle on the Canvas 
-[INFO ] 2023-04-95 15:26:20.002 [main] LoggerLoad - Shape Circle Success
-[INFO ] 2023-04-95 15:26:20.049 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
-[INFO ] 2023-04-95 15:26:26.988 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-95 15:26:27.020 [main] LoggerLoad - Erase the Object drawn started
-[INFO ] 2023-04-95 15:26:45.319 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-95 15:26:45.320 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-95 15:26:45.321 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-95 15:27:07.840 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-95 15:27:07.842 [main] LoggerLoad - Instuctor Lesson Started
-[INFO ] 2023-04-95 15:27:11.246 [main] LoggerLoad - Shape Polygon Success
-[INFO ] 2023-04-95 15:27:18.612 [main] LoggerLoad - Shape Triangle Success
-[INFO ] 2023-04-95 15:27:18.612 [main] LoggerLoad - Instuctor Lesson Success
-[INFO ] 2023-04-95 15:27:18.615 [main] LoggerLoad - StudentDemo Started
-[INFO ] 2023-04-95 15:27:48.487 [main] LoggerLoad - StudentDemo Success
-[INFO ] 2023-04-95 15:27:48.489 [main] LoggerLoad - MyBoard Download Started
-[INFO ] 2023-04-95 15:27:56.848 [main] LoggerLoad - MyBoardDownload Success
-[INFO ] 2023-04-95 15:27:56.850 [main] LoggerLoad - Upload a file Started
-[INFO ] 2023-04-95 15:28:19.231 [main] LoggerLoad - File Upload Success
-[INFO ] 2023-04-95 15:28:22.631 [main] LoggerLoad - Undo Redo Zoom Started
-[INFO ] 2023-04-95 15:29:01.460 [main] LoggerLoad - UNDO REDO ZOOM Success
-[INFO ] 2023-04-95 15:29:01.471 [main] LoggerLoad - LanguageChange Started
-[INFO ] 2023-04-95 15:29:08.283 [main] LoggerLoad - LanguageChange Success
-[INFO ] 2023-04-95 15:29:08.289 [main] LoggerLoad - Colour_PenThickness Started
-[INFO ] 2023-04-95 15:29:40.173 [main] LoggerLoad - Colour_PenThickness Success
-[INFO ] 2023-04-95 15:29:45.517 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-95 15:29:45.517 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-95 15:29:45.517 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-95 15:30:08.012 [main] LoggerLoad - Main Canvas Landed Successful
-[INFO ] 2023-04-95 15:30:08.035 [main] LoggerLoad - Gizmos Started
-[INFO ] 2023-04-95 15:30:31.205 [main] LoggerLoad - GizmosTool Success
-[INFO ] 2023-04-95 15:30:31.207 [main] LoggerLoad - YouTube widgets Started
-[INFO ] 2023-04-95 15:31:07.586 [main] LoggerLoad - YouTube widgets success
-[INFO ] 2023-04-95 15:31:12.317 [main] LoggerLoad - Broswer is opened
-[INFO ] 2023-04-95 15:31:12.317 [main] LoggerLoad - Verified that the user landed on Home Page.
-[INFO ] 2023-04-95 15:31:12.317 [main] LoggerLoad - Goto Main Canvas Started
-[INFO ] 2023-04-95 15:31:34.807 [main] LoggerLoad - Main Canvas Landed Successful
+[INFO ] 2023-04-07 16:05:19.975 [main] LoggerLoad - Broswer is opened
+[INFO ] 2023-04-07 16:05:19.980 [main] LoggerLoad - Verified that the user landed on Home Page.
+[INFO ] 2023-04-07 16:05:19.980 [main] LoggerLoad - Goto Main Canvas Started
+[INFO ] 2023-04-07 16:05:42.582 [main] LoggerLoad - Main Canvas Landed Successful
+[INFO ] 2023-04-07 16:05:42.599 [main] LoggerLoad - Drawing on the Canvas using a Free Hand Pen Tool
+[INFO ] 2023-04-07 16:06:02.233 [main] LoggerLoad - Click and Type tools is selected from WRITE Tab
+[ERROR] 2023-04-07 16:06:14.006 [main] LoggerLoad - Canvas is in theText Text Mode
+[INFO ] 2023-04-07 16:06:14.048 [main] LoggerLoad - Applying Grid on the Canvas 
+[INFO ] 2023-04-07 16:06:23.548 [main] LoggerLoad - Applying Grid on the Canvas 
+[INFO ] 2023-04-07 16:06:36.415 [main] LoggerLoad - Uploading a picture on the Canvas 
+[INFO ] 2023-04-07 16:06:58.994 [main] LoggerLoad - File Upload Success
+[INFO ] 2023-04-07 16:07:02.386 [main] LoggerLoad - Placing a shape triangle on the Canvas 
+[INFO ] 2023-04-07 16:07:09.422 [main] LoggerLoad - Shape Triangle Success
+[INFO ] 2023-04-07 16:07:09.450 [main] LoggerLoad - Placing a shape Circle on the Canvas 
+[INFO ] 2023-04-07 16:07:16.142 [main] LoggerLoad - Shape Circle Success
+[INFO ] 2023-04-07 16:07:16.188 [main] LoggerLoad - Placing a shape Polygon on the Canvas 
+[INFO ] 2023-04-07 16:07:23.080 [main] LoggerLoad - Shape Polygon Success
+[INFO ] 2023-04-07 16:07:23.108 [main] LoggerLoad - Erase the Object drawn started
+[INFO ] 2023-04-07 16:07:41.587 [main] LoggerLoad - Broswer is opened
+[INFO ] 2023-04-07 16:07:41.587 [main] LoggerLoad - Verified that the user landed on Home Page.
+[INFO ] 2023-04-07 16:07:41.588 [main] LoggerLoad - Goto Main Canvas Started
+[INFO ] 2023-04-07 16:08:04.046 [main] LoggerLoad - Main Canvas Landed Successful
+[INFO ] 2023-04-07 16:08:04.047 [main] LoggerLoad - Instuctor Lesson Started
+[INFO ] 2023-04-07 16:08:07.425 [main] LoggerLoad - Shape Polygon Success
+[INFO ] 2023-04-07 16:08:14.786 [main] LoggerLoad - Shape Triangle Success
+[INFO ] 2023-04-07 16:08:14.786 [main] LoggerLoad - Instuctor Lesson Success
+[INFO ] 2023-04-07 16:08:14.788 [main] LoggerLoad - StudentDemo Started
+[INFO ] 2023-04-07 16:08:44.668 [main] LoggerLoad - StudentDemo Success
+[INFO ] 2023-04-07 16:08:44.670 [main] LoggerLoad - MyBoard Download Started
+[INFO ] 2023-04-07 16:08:56.063 [main] LoggerLoad - MyBoardDownload Success
+[INFO ] 2023-04-07 16:08:56.065 [main] LoggerLoad - Upload a file Started
+[INFO ] 2023-04-07 16:09:20.377 [main] LoggerLoad - File Upload Success
+[INFO ] 2023-04-07 16:09:23.767 [main] LoggerLoad - Undo Redo Zoom Started
+[INFO ] 2023-04-07 16:10:02.417 [main] LoggerLoad - UNDO REDO ZOOM Success
+[INFO ] 2023-04-07 16:10:02.425 [main] LoggerLoad - LanguageChange Started
+[INFO ] 2023-04-07 16:10:09.417 [main] LoggerLoad - LanguageChange Success
+[INFO ] 2023-04-07 16:10:09.423 [main] LoggerLoad - Colour_PenThickness Started
+[INFO ] 2023-04-07 16:10:41.292 [main] LoggerLoad - Colour_PenThickness Success
+[INFO ] 2023-04-07 16:10:47.023 [main] LoggerLoad - Broswer is opened
+[INFO ] 2023-04-07 16:10:47.024 [main] LoggerLoad - Verified that the user landed on Home Page.
+[INFO ] 2023-04-07 16:10:47.024 [main] LoggerLoad - Goto Main Canvas Started
+[INFO ] 2023-04-07 16:11:09.498 [main] LoggerLoad - Main Canvas Landed Successful
+[INFO ] 2023-04-07 16:11:09.522 [main] LoggerLoad - Gizmos Started
+[INFO ] 2023-04-07 16:11:32.705 [main] LoggerLoad - GizmosTool Success
+[INFO ] 2023-04-07 16:11:32.707 [main] LoggerLoad - YouTube widgets Started
+[INFO ] 2023-04-07 16:12:08.994 [main] LoggerLoad - YouTube widgets success
+[INFO ] 2023-04-07 16:12:15.211 [main] LoggerLoad - Broswer is opened
+[INFO ] 2023-04-07 16:12:15.211 [main] LoggerLoad - Verified that the user landed on Home Page.
+[INFO ] 2023-04-07 16:12:15.211 [main] LoggerLoad - Goto Main Canvas Started
+[INFO ] 2023-04-07 16:12:37.788 [main] LoggerLoad - Main Canvas Landed Successful

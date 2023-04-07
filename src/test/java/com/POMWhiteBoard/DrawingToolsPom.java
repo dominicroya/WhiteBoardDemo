@@ -13,9 +13,10 @@ public class DrawingToolsPom {
 		this.driver=driver;	
 		PageFactory.initElements(driver, this);
 	}
-
 	
-	@FindBy(xpath = "//*[@id='drawToolsIcon']/button[2]")
+	//button[contains(@class,'jss136') and  contains(@aria-label,'Drawing Tools')] 
+	
+	@FindBy(xpath = "//*[@id=\"drawToolsIcon\"]/button[2]")
 	public WebElement drawingBtn;
 
 	@FindBy(xpath= "//h6[.='Pen (Click & Draw)']")
@@ -27,7 +28,7 @@ public class DrawingToolsPom {
 	@FindBy(id = "openDrawer")
 	WebElement openDrawer;	
 
-	@FindBy(xpath="//*[@id='button_Text']/button[2]")
+	@FindBy(xpath="//*[@id=\"button_Text\"]/button[2]")
 	WebElement writeBtn;
 
 	@FindBy(id="button_click_type")

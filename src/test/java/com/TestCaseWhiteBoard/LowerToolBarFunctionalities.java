@@ -114,10 +114,10 @@ public class LowerToolBarFunctionalities extends BaseClass{
 
 	}
 	
-	/*@Test(priority=19)
-	@Test(enabled=false)
+	@Test(priority=19)
+	//@Test(enabled=false)
 	public void InvalidUser() throws InterruptedException,AssertionError{
-		test=extentReport.createTest("TC_04_InvalidUser");  
+		test=extentReport.createTest("TC_19_InvalidUser");  
 		test.log(Status.INFO, "Logging in with Invalid Credentials");
 		LoginPOM l1 = new LoginPOM(driver);
 		l1.Settings();
@@ -125,7 +125,6 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		l1.enterInvalidEmail();
 		l1.enterInvalidPassword();
 		l1.sigIn();	
-		Thread.sleep(2000);
 		test.log(Status.INFO, "Current Mode:"+l1.getToastMessage());
 		Thread.sleep(2000); ////div[contains(text(),'User does not exist.')]
 		l1.closeBtnClick();
@@ -134,12 +133,14 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		}else if(l1.getToastMessage().equals("User does not exist.")){
 			test.log(Status.FAIL, "User does not exist.");	
 		}*/
-		/*String ExpError="Logged in Succesfull";
+		String ExpError="Logged in Succesfull";
 		String ActError=l1.getToastMessage();
 		Assert.assertEquals(ExpError, ActError);
 		System.out.println("invalid done");
 		//Assert.assertEquals("User does not exist.", ActError);
 		
-	}*/
+	}
+		
+	
 
 }
