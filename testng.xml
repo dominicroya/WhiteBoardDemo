@@ -9,9 +9,9 @@
 		 <parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities" />
-			<!-- <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities" /> 
+			<class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities" /> 
 			<class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities" />
-			<class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities" />-->
+			<class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
