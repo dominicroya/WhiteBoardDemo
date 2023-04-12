@@ -3,24 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities">
+      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities">
         <methods>
-          <include name="ShapeCircle"/>
-          <include name="PenDraw"/>
-          <include name="ShapeTriangle"/>
-          <include name="ClicknType"/>
-          <include name="GridTool"/>
-          <include name="ContentUpload"/>
-          <include name="WhiteOut"/>
-          <include name="ClearGrid"/>
-          <include name="ShapePolygon"/>
+          <include name="InvalidUser"/>
+          <include name="RenameBoard"/>
+          <include name="Pagination"/>
+          <include name="Login"/>
+          <include name="ExtentReport"/>
         </methods>
-      </class> <!-- com.TestCaseWhiteBoard.LeftToolBarFunctionalities -->
+      </class> <!-- com.TestCaseWhiteBoard.LowerToolBarFunctionalities -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

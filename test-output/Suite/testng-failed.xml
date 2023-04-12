@@ -1,55 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="browser" value="edge"/>
+  <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="com.UtilitiesWhiteBoard.ListenersTestNG"/>
   </listeners>
   <test name="Functional Test">
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities"/>
-      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities"/>
-      <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities"/>
-      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities"/>
     </classes>
   </test> <!-- Functional Test -->
-  <test name="Functional Test(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities">
-        <methods>
-          <include name="screenShot"/>
-          <include name="tearDown"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- com.TestCaseWhiteBoard.RightToolBarFunctionalities -->
-      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities">
-        <methods>
-          <include name="screenShot"/>
-          <include name="tearDown"/>
-          <include name="SetUp"/>
-          <include name="ExtentReport"/>
-        </methods>
-      </class> <!-- com.TestCaseWhiteBoard.LeftToolBarFunctionalities -->
-      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities">
-        <methods>
-          <include name="screenShot"/>
-          <include name="tearDown"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- com.TestCaseWhiteBoard.TopToolBarFunctionalities -->
-      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities">
-        <methods>
-          <include name="PageNation"/>
-          <include name="InvalidUser"/>
-          <include name="RenameBoard"/>
-          <include name="screenShot"/>
-          <include name="tearDown"/>
-          <include name="SetUp"/>
-          <include name="Login"/>
-        </methods>
-      </class> <!-- com.TestCaseWhiteBoard.LowerToolBarFunctionalities -->
-    </classes>
-  </test> <!-- Functional Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

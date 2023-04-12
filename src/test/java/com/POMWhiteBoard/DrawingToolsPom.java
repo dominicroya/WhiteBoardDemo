@@ -13,9 +13,7 @@ public class DrawingToolsPom {
 		this.driver=driver;	
 		PageFactory.initElements(driver, this);
 	}
-	
-	//button[contains(@class,'jss136') and  contains(@aria-label,'Drawing Tools')] 
-	
+		
 	@FindBy(xpath = "//*[@id=\"drawToolsIcon\"]/button[2]")
 	public WebElement drawingBtn;
 
@@ -73,8 +71,6 @@ public class DrawingToolsPom {
 	@FindBy(xpath="//*[@class='MuiSvgIcon-root jss123']")
 	WebElement closedrawer;
 	
-	
-
 	public void hamburgerClick() {
 		openDrawer.click();			
 	}
@@ -138,9 +134,6 @@ public class DrawingToolsPom {
 		moveByOffset(-25,-10).
 		moveByOffset(-50,-10).release().perform();
 	}
-
-
-
 
 	public void clickAndHold() {
 		act=new Actions(driver);
@@ -268,16 +261,7 @@ public class DrawingToolsPom {
 	}
 	public void moveEraser() throws InterruptedException{
 		act=new Actions(driver);
-		/*act.clickAndHold(canvas).moveByOffset(-70,-200).moveByOffset(0,0).moveByOffset(100,-40).release().perform();
-		System.out.println("Option1");
-		Thread.sleep(3000);
-		act.moveToElement(canvas, -150, 0).clickAndHold();
-		act.moveToElement(canvas, 0, 0).moveToElement(canvas, -150, 0).release().perform();	
-		System.out.println("Option2");
-		Thread.sleep(3000);
-		act.dragAndDropBy(canvas,-150,0).release().perform();
-		System.out.println("Option3");
-		 */
+		
 		/*act.clickAndHold(canvas).moveByOffset(-140, -150).dragAndDropBy(canvas, -140, 150).release().perform();
 		act.clickAndHold(canvas).moveByOffset(-120, -150).dragAndDropBy(canvas, -120, 150).release().perform();*/
 		act.clickAndHold(canvas).moveByOffset(-100, -150).dragAndDropBy(canvas, -100, 150).release().perform();
@@ -297,36 +281,7 @@ public class DrawingToolsPom {
 		/*act.clickAndHold(canvas).moveByOffset(180, -150).dragAndDropBy(canvas,180, 150).release().perform();
 		act.clickAndHold(canvas).moveByOffset(200, -150).dragAndDropBy(canvas,200, 150).release().perform();*/
 
-
-
-
-
-		/*act.clickAndHold(canvas).moveByOffset(-100, -200).dragAndDropBy(canvas, -100, 200).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -180).dragAndDropBy(canvas, -100, 180).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -160).dragAndDropBy(canvas, -100, 160).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -140).dragAndDropBy(canvas, -100, 140).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -120).dragAndDropBy(canvas, -100, 120).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -100).dragAndDropBy(canvas, -100, 100).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -80).dragAndDropBy(canvas, -100, 80).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -60).dragAndDropBy(canvas, -100, 60).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -40).dragAndDropBy(canvas, -100, 40).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, -20).dragAndDropBy(canvas, -100, 20).release().perform();
-		act.clickAndHold(canvas).moveByOffset(-100, 0).dragAndDropBy(canvas, -100, 0).release().perform();
-
-		act.clickAndHold(canvas).moveByOffset(100, -0).dragAndDropBy(canvas, 100, 0).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -20).dragAndDropBy(canvas, 100, 20).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -40).dragAndDropBy(canvas, 100, 40).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -60).dragAndDropBy(canvas, 100, 60).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -80).dragAndDropBy(canvas, 100, 80).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -100).dragAndDropBy(canvas, 100, 100).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -120).dragAndDropBy(canvas, 100, 120).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -140).dragAndDropBy(canvas, 100, 140).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -160).dragAndDropBy(canvas, 100, 160).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -180).dragAndDropBy(canvas, 100, 180).release().perform();
-		act.clickAndHold(canvas).moveByOffset(100, -200).dragAndDropBy(canvas, 100, 200).release().perform();*/
-
 	}
-
 
 
 }

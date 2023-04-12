@@ -4,12 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class LandingPagePOM {
 	public WebDriver driver;	
-	protected static WebDriverWait wait=null;
+	protected static WebDriverWait wait;
 	public LandingPagePOM(WebDriver driver) {
 		this.driver=driver;	
 		PageFactory.initElements(driver, this);
@@ -17,6 +18,9 @@ public class LandingPagePOM {
 	
 	@FindBy(xpath = "//span[text()='No']")
 	public WebElement popupNObtn;
+	
+	@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/div[3]/button")
+	public WebElement muiPopup;
 	
 	@FindBy(xpath = "//span[@class='MuiButton-label']")
 	public WebElement collaborate;
@@ -28,7 +32,6 @@ public class LandingPagePOM {
 	public WebElement skip4Good;
 	
 	public void popupNo() {
-		//wait.until(ExpectedConditions.visibilityOf(popupNObtn));
 		popupNObtn.click();
 	}
 	
@@ -46,10 +49,4 @@ public class LandingPagePOM {
 		
 	}
 	
-	
-	
-	
-	
-	
-
 }

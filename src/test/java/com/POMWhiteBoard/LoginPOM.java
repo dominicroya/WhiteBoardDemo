@@ -16,43 +16,47 @@ public class LoginPOM {
 		PageFactory.initElements(driver, this);
 	}
 
-	//Web Elements
+	//Web Elements 
 
+	@FindBy(xpath = "//*[@class='useremail']")
+	public WebElement useremail;
+	
 	@FindBy(xpath = "//*[@id=\"settingsButton\"]")
-	WebElement settingsBtn;
+	public WebElement settingsBtn;
 
 	@FindBy(xpath = "//input[@name='email']")
-	WebElement emailTxtBx;
+	public WebElement emailTxtBx;
 
 	@FindBy(xpath = "//input[@name='password']")
-	WebElement PasswordTxtBx;
+	public WebElement PasswordTxtBx;
 
 	@FindBy(xpath = "//*[contains(text(), 'Sign In')]")
-	WebElement SignInBtn;
+	public WebElement SignInBtn;
 
 	@FindBy(xpath = "//span[.='remind me again']")
-	WebElement remindMeAgainBtn;
+	public WebElement remindMeAgainBtn;
 
 	@FindBy(xpath = "//span[.='Save ']")
-	WebElement SaveName;
+	public WebElement SaveName;
 
 	@FindBy(xpath = "//*[@class='MuiSvgIcon-root ndCloseIcon']")
-	WebElement removePopup;
+	public WebElement removePopup;
+	
 
 	@FindBy(xpath = "//input[@name='email']")
-	WebElement invalidemail;
+	public WebElement invalidemail;
 
 	@FindBy(xpath = "//input[@name='password']")
-	WebElement invalidPassword;
+	public WebElement invalidPassword;
 	
 	@FindBy(xpath = "//div[@class='MuiAlert-message']")
-	WebElement Toast;
+	public WebElement Toast;
 	
 	@FindBy(xpath = "//div[contains(text(),'Incorrect username or password.')]")
-	WebElement IncorrectToast;
+	public WebElement IncorrectToast;
 	
 	@FindBy(className = "ndCloseIcon")
-	WebElement closeBtn;
+	public WebElement closeBtn;
 
 	
 	public void closeBtnClick() {
@@ -87,7 +91,11 @@ public class LoginPOM {
 		PasswordTxtBx.sendKeys("1234567890");
 	}
 
-
+	public String getUserMail() {
+		return useremail.getText();
+		
+	}
+	
 	public void sigIn() {
 		SignInBtn.click();
 	}

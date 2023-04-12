@@ -2,12 +2,16 @@ package com.TestCaseWhiteBoard;
 
 import java.io.File;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -26,6 +30,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class BaseClass {
 
 	public WebDriver driver;
+	protected static WebDriverWait wait=null;
 	ReadConfig readconfig= new ReadConfig();
 	public static ExtentReports extentReport;
 	public static ExtentSparkReporter report;
@@ -40,13 +45,9 @@ public class BaseClass {
 	    {
 		 	report = new ExtentSparkReporter("./Extent-reports/ExtentReportWBD.html");
 		 	extentReport = new ExtentReports();
-		 	extentReport.attachReporter(report);
-	         
+		 	extentReport.attachReporter(report); 
 		 	extentReport.setSystemInfo("OS", "Edge");
-		 	extentReport.setSystemInfo("Environment", "QA");
-		 	
-	         
-	        
+		 	extentReport.setSystemInfo("Environment", "QA"); 		               
 	        report.config().setDocumentTitle("Test Execution Report");
 	        report.config().setReportName("WhiteBoardDemo");
 	        report.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
@@ -57,15 +58,6 @@ public class BaseClass {
 	@Parameters("browser")
 	@BeforeClass
 	public void SetUp(String browser) throws InterruptedException {	
-		//extentReport= new ExtentReports();
-		//report=new ExtentSparkReporter("./Extent-reports/ExtentReportWBD.html");
-		//extentReport.attachReporter(report);
-		/*System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-allow-origins=*");		
-		ChromeDriver driver = new ChromeDriver(options);
-		this.driver=driver;
-		driver =new ChromeDriver();*/
 		if(browser.equalsIgnoreCase("chrome")) {
 			//Initialize the chrome driver
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
@@ -77,19 +69,26 @@ public class BaseClass {
 			System.setProperty("webdriver.edge.driver",readconfig.getedgepath());
 			driver = new EdgeDriver();
 		} 
-		
 		driver.manage().window().maximize();
 		driver.get(readconfig.getApplicationURL());
 		LoggerLoad.info("Broswer is opened");
-		LoggerLoad.info("Verified that the user landed on Home Page.");
-		System.out.println("Goto Main canvas started");
+		LoggerLoad.info("Landed on Home Page.");
 		LoggerLoad.info("Goto Main Canvas Started");
 		LandingPagePOM lp=new LandingPagePOM(driver);
-		Thread.sleep(2000);
-		lp.popupNo();		
+		WebDriverWait wait=new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.elementToBeClickable(lp.popupNObtn));	
+		lp.popupNo();
+		LoggerLoad.info("Closed the Pop Up");
 		lp.collaborateOption();
-		Thread.sleep(20000);
+		LoggerLoad.info("Clicked on Collaborate Option");
+		WebElement hello=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[3]/button")));
+		wait.until(ExpectedConditions.elementToBeClickable(hello));
+		hello.click();
+		LoggerLoad.info("Clicked Close in OverlayMUI Popup");
+		wait.until(ExpectedConditions.elementToBeClickable(lp.skip4Good));
 		lp.skipforGood();
+		LoggerLoad.info("Clicked on Skip4good Button");
+		System.out.println("");
 		LoggerLoad.info("Main Canvas Landed Successful");	
 	}
 

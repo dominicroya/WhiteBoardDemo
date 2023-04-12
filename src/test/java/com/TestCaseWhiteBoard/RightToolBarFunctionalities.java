@@ -11,7 +11,8 @@ public class RightToolBarFunctionalities extends BaseClass {
 	@Test(priority=17)
 	public void GizmosTool() throws InterruptedException{
 		RightToolBarPOM g1 = new RightToolBarPOM(driver);
-		test=extentReport.createTest("TC_17_GizmosTool");  
+		test=extentReport.createTest("TC_17_GizmosTool"); 
+		test.assignCategory("Right Tool Bar");
 		System.out.println("Gizmos Started");
 		LoggerLoad.info("Gizmos Started");
 		test.log(Status.INFO, "Gizmos Started");
@@ -43,6 +44,7 @@ public class RightToolBarFunctionalities extends BaseClass {
 		lp.skipforGood();
 		System.out.println("Canvas Launched Successful");*/
 		test=extentReport.createTest("TC_18_WidgetYouTube");  
+		test.assignCategory("Right Tool Bar");
 		System.out.println("YouTube widgets Started");
 		LoggerLoad.info("YouTube widgets Started");
 		test.log(Status.INFO, "YouTube widgets Started");

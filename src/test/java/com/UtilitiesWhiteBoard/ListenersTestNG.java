@@ -1,7 +1,12 @@
 package com.UtilitiesWhiteBoard;
 
+import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
@@ -46,6 +51,7 @@ public class ListenersTestNG extends BaseClass implements ITestListener, IAnnota
 
 	public void onTestFailure(ITestResult result) {
 		//Log.info(getTestMethodName(result) + " test is failed.");
+		
 		System.out.println("onTestFailure Method" + result.getName());
 	}
 
@@ -58,8 +64,8 @@ public class ListenersTestNG extends BaseClass implements ITestListener, IAnnota
 		//Log.info("Test failed but it is in defined success ratio " + getTestMethodName(result));
 		System.out.println("onTestFailedButWithinSuccessPercentage" + result.getName());
 	}
-
-	public void transform(ITestAnnotation annotation, Class tesClass,
+	@Override
+	public void transform(ITestAnnotation annotation, Class testClass,
 
 			Constructor testConstructor, Method testMethod) {
 

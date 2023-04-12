@@ -133,6 +133,7 @@ public class TopToolBarPOM {
 
 	public void singleBoardName() {
 		SingleBoardName.sendKeys("Automation");
+		SingleBoardName.sendKeys(Keys.ENTER);
 	}
 
 

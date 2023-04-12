@@ -1,31 +1,44 @@
 package com.TestCaseWhiteBoard;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
 import com.POMWhiteBoard.DrawingToolsPom;
+import com.POMWhiteBoard.LandingPagePOM;
 import com.POMWhiteBoard.LoginPOM;
 import com.POMWhiteBoard.LowerToolBarPOM;
 import com.POMWhiteBoard.TopToolBarPOM;
 import com.UtilitiesWhiteBoard.LoggerLoad;
-import com.aventstack.extentreports.Status;
 
-public class LowerToolBarFunctionalities extends BaseClass{
+public class testmain {
 
-
-	@Test(priority=19)
-	//@Test(enabled=false)
-	public void InvalidUser() throws InterruptedException,AssertionError{
-		test=extentReport.createTest("TC_19_InvalidUser");  
-		test.assignCategory("Lower Tool Bar");
-		test.log(Status.INFO, "Logging in with Invalid Credentials");
-		Thread.sleep(3000);
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		
+		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\dominicroya\\\\eclipse-workspace\\\\lib\\\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		WebDriverWait wait=new WebDriverWait(driver,20);
+		driver.manage().window().maximize();
+		driver.get("https://www.whiteboard.chat/");
+		LandingPagePOM lp=new LandingPagePOM(driver);
+		wait.until(ExpectedConditions.elementToBeClickable(lp.popupNObtn));	
+		lp.popupNo();		
+		lp.collaborateOption();
+		WebElement hello=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[3]/button")));
+		//WebElement hello=driver.findElement(By.)
+		wait.until(ExpectedConditions.elementToBeClickable(hello));
+		hello.click();
+		wait.until(ExpectedConditions.elementToBeClickable(lp.skip4Good));
+		lp.skipforGood();
+		
 		LoginPOM l1 = new LoginPOM(driver);
 		SoftAssert softAssert = new SoftAssert();
-		wait=new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.elementToBeClickable(l1.settingsBtn));	
 		l1.Settings();
 		wait.until(ExpectedConditions.elementToBeClickable(l1.emailTxtBx));
@@ -43,18 +56,10 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		String ActText=l1.getToastMessage();
 		softAssert.assertEquals(ActText,ExpText);
 		//softAssert.assertEquals("User does not exist.", ActText);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		l1.closeBtnClick();
-		softAssert.assertAll();
 		System.out.println("invalid user");
-	}
-	
-	@Test(priority=20)
-	public void Login() throws InterruptedException {
-		test=extentReport.createTest("TC_20_Login"); 
-		test.assignCategory("Lower Tool Bar");
-		test.log(Status.INFO, "Login Started");
-		wait=new WebDriverWait(driver,20);
+		
 		LoginPOM lop = new LoginPOM(driver);
 		wait.until(ExpectedConditions.elementToBeClickable(lop.settingsBtn));	
 		lop.Settings();
@@ -67,25 +72,10 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		wait.until(ExpectedConditions.elementToBeClickable(lop.removePopup));	
 		lop.RemovePopUP();
 		LoggerLoad.info("Removed PopUp");
+		LoggerLoad.info("Removed Remind me again Popup");
 		LoggerLoad.info("Login Success");
 		System.out.println("Login Success");
 		
-		//wait.until(ExpectedConditions.elementToBeClickable(lp.remindMeAgainBtn));	
-		//lp.remindMeAgain();
-		//LoggerLoad.info("Removed Remind me again Popup");
-		//test.log(Status.INFO, "Removed Remind me again Popup");
-		//LoggerLoad.info("Login Success");
-		//test.log(Status.INFO, "Login Success");
-		//System.out.println("Login Success");
-	}
-	
-	
-	@Test(priority=21)
-	public void Pagination() throws InterruptedException{
-		test=extentReport.createTest("TC_21_PageNation"); 
-		test.assignCategory("Lower Tool Bar");
-		test.log(Status.INFO, "Changing the pages of the Board name Started");
-		System.out.println("Changing the pages of the Board name Started");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);
 		System.out.println("Shape Triangle started");
 		dt.drawingBtnClick();
@@ -131,18 +121,12 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		Thread.sleep(3000);
 		System.out.println("Changing the pages of the Board name Success");
 		LoggerLoad.info("Changing the pages of the Board name Success");
-	}
-	
-	@Test(priority=22)
-	public void RenameBoard() throws InterruptedException{
-		test=extentReport.createTest("TC_22_RenameBoard");  
-		test.assignCategory("Lower Tool Bar");
-		test.log(Status.INFO, "Re-nameing the Board name Started");
+		
+		
 		LoggerLoad.info("Re-nameing the Board name Started");
 		System.out.println("Re-nameing the Board name Started");
 		TopToolBarPOM t1 = new TopToolBarPOM(driver);
 		t1.singleBoardName();
-		wait=new WebDriverWait(driver,20);
 		System.out.println("Click on Save button");
 		LoggerLoad.info("Click on Save button");
 		Thread.sleep(3000);
@@ -152,13 +136,10 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		ltbp.manageBoardsClick();
 		WebElement getview=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td[normalize-space()='Automation']//following::td[4]/a[2]")));
 		getview.click();
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		System.out.println("Re-nameing the Board name Success");
 		LoggerLoad.info("Re-nameing the Board name Success");
-
+		softAssert.assertAll();
 	}
-	
-	
-	
+
 }
-	

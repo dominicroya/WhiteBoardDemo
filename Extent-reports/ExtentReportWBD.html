@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">WhiteBoardDemo</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Friday, April 07, 2023, 04:05 PM (IST)</span></a>
+<a href="#"><span class="badge badge-primary">Wednesday, April 12, 2023, 05:31 PM (IST)</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -67,9 +72,14 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">LeftToolBar</a>
 </ul>
 </li>
 </ul>
@@ -77,12 +87,12 @@
       <ul class="test-list-item">
         <li class="test-item"  status="pass" test-id="1"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_01_Pen:Click&Draw</p>
             <p class="text-sm">
-              <span>4:05:42 PM</span> / <span>00:00:19:156</span>
+              <span>5:31:29 PM</span> / <span>00:00:19:149</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -91,13 +101,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_01_Pen:Click&Draw</h5>
-<span class='badge badge-success'>04.07.2023 4:05:42 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:06:01 PM</span>
-<span class='badge badge-default'>00:00:19:156</span>
+<span class='badge badge-success'>04.12.2023 5:31:29 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:31:49 PM</span>
+<span class='badge badge-default'>00:00:19:149</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -105,42 +116,42 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:05:42 PM</td>
+        <td>5:31:29 PM</td>
         <td>
           Drawing on the Canvas using a Free Hand Pen Tool
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:01 PM</td>
+        <td>5:31:49 PM</td>
         <td>
           Getting the Canvas Mode after selecting the Pen Tool
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:01 PM</td>
+        <td>5:31:49 PM</td>
         <td>
           Expected Mode: Draw 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:01 PM</td>
+        <td>5:31:49 PM</td>
         <td>
           Current Mode:Draw
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:06:01 PM</td>
+        <td>5:31:49 PM</td>
         <td>
           Canvas is in the Draw Mode
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:01 PM</td>
+        <td>5:31:49 PM</td>
         <td>
           Free Hand Draw successful
         </td>
@@ -150,29 +161,30 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
+        <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_02_Click&Type</p>
             <p class="text-sm">
-              <span>4:06:02 PM</span> / <span>00:00:11:775</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>5:31:49 PM</span> / <span>00:00:11:827</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">TC_02_Click&Type</h5>
-<span class='badge badge-success'>04.07.2023 4:06:02 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:06:14 PM</span>
-<span class='badge badge-default'>00:00:11:775</span>
+<h5 class="test-status text-pass">TC_02_Click&Type</h5>
+<span class='badge badge-success'>04.12.2023 5:31:49 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:32:01 PM</span>
+<span class='badge badge-default'>00:00:11:827</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -180,37 +192,44 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:02 PM</td>
+        <td>5:31:49 PM</td>
         <td>
           Click and Type tools is selected from WRITE Tab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:14 PM</td>
+        <td>5:32:01 PM</td>
         <td>
           Getting the Canvas Mode after selecting the Write Tool
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:14 PM</td>
+        <td>5:32:01 PM</td>
         <td>
           Expected Mode: Text Text 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:14 PM</td>
+        <td>5:32:01 PM</td>
         <td>
           Current Mode:Text Text
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:06:14 PM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:32:01 PM</td>
         <td>
-          Canvas is in theText Text Mode
+          Canvas is in the Text Text Mode
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:32:01 PM</td>
+        <td>
+          Click & Type Tool is Success
         </td>
       </tr>
   </tbody>
@@ -220,12 +239,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="3"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_03_GridTool_Apply</p>
             <p class="text-sm">
-              <span>4:06:14 PM</span> / <span>00:00:09:455</span>
+              <span>5:32:01 PM</span> / <span>00:00:09:486</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -234,13 +253,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_03_GridTool_Apply</h5>
-<span class='badge badge-success'>04.07.2023 4:06:14 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:06:23 PM</span>
-<span class='badge badge-default'>00:00:09:455</span>
+<span class='badge badge-success'>04.12.2023 5:32:01 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:32:10 PM</span>
+<span class='badge badge-default'>00:00:09:486</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -248,14 +268,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:14 PM</td>
+        <td>5:32:01 PM</td>
         <td>
           Applying Grid on the Canvas 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:06:23 PM</td>
+        <td>5:32:10 PM</td>
         <td>
           Grid Placed Successful
         </td>
@@ -267,12 +287,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="4"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_04_GridTool_Clear</p>
             <p class="text-sm">
-              <span>4:06:23 PM</span> / <span>00:00:12:830</span>
+              <span>5:32:11 PM</span> / <span>00:00:12:882</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -281,13 +301,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_04_GridTool_Clear</h5>
-<span class='badge badge-success'>04.07.2023 4:06:23 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:06:36 PM</span>
-<span class='badge badge-default'>00:00:12:830</span>
+<span class='badge badge-success'>04.12.2023 5:32:11 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:32:23 PM</span>
+<span class='badge badge-default'>00:00:12:882</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -295,14 +316,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:23 PM</td>
+        <td>5:32:11 PM</td>
         <td>
           Removing Grid on the Canvas 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:06:36 PM</td>
+        <td>5:32:23 PM</td>
         <td>
           Grid  Removed from the Canvas
         </td>
@@ -314,12 +335,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="5"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_05_ContentUpload</p>
             <p class="text-sm">
-              <span>4:06:36 PM</span> / <span>00:00:25:929</span>
+              <span>5:32:23 PM</span> / <span>00:00:26:020</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -328,13 +349,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_05_ContentUpload</h5>
-<span class='badge badge-success'>04.07.2023 4:06:36 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:07:02 PM</span>
-<span class='badge badge-default'>00:00:25:929</span>
+<span class='badge badge-success'>04.12.2023 5:32:23 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:32:49 PM</span>
+<span class='badge badge-default'>00:00:26:020</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -342,14 +364,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:06:36 PM</td>
+        <td>5:32:23 PM</td>
         <td>
           Uploading a picture on the Canvas 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:07:02 PM</td>
+        <td>5:32:49 PM</td>
         <td>
           File Upload Success
         </td>
@@ -361,12 +383,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="6"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_06_ShapeTriangle</p>
             <p class="text-sm">
-              <span>4:07:02 PM</span> / <span>00:00:07:036</span>
+              <span>5:32:50 PM</span> / <span>00:00:07:005</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -375,13 +397,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_06_ShapeTriangle</h5>
-<span class='badge badge-success'>04.07.2023 4:07:02 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:07:09 PM</span>
-<span class='badge badge-default'>00:00:07:036</span>
+<span class='badge badge-success'>04.12.2023 5:32:50 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:32:57 PM</span>
+<span class='badge badge-default'>00:00:07:005</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -389,14 +412,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:07:02 PM</td>
+        <td>5:32:50 PM</td>
         <td>
           Placing a shape triangle on the Canvas 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:07:09 PM</td>
+        <td>5:32:57 PM</td>
         <td>
           Shape Triangle Success
         </td>
@@ -408,12 +431,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="7"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_07_ShapeCircle</p>
             <p class="text-sm">
-              <span>4:07:09 PM</span> / <span>00:00:06:692</span>
+              <span>5:32:57 PM</span> / <span>00:00:06:826</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -422,13 +445,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_07_ShapeCircle</h5>
-<span class='badge badge-success'>04.07.2023 4:07:09 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:07:16 PM</span>
-<span class='badge badge-default'>00:00:06:692</span>
+<span class='badge badge-success'>04.12.2023 5:32:57 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:33:03 PM</span>
+<span class='badge badge-default'>00:00:06:826</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -436,14 +460,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:07:09 PM</td>
+        <td>5:32:57 PM</td>
         <td>
           Placing a shape Circle on the Canvas 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:07:16 PM</td>
+        <td>5:33:03 PM</td>
         <td>
           Shape Circle Success
         </td>
@@ -455,12 +479,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="8"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_08_ShapePolygon</p>
             <p class="text-sm">
-              <span>4:07:16 PM</span> / <span>00:00:06:892</span>
+              <span>5:33:03 PM</span> / <span>00:00:06:916</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -469,13 +493,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_08_ShapePolygon</h5>
-<span class='badge badge-success'>04.07.2023 4:07:16 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:07:23 PM</span>
-<span class='badge badge-default'>00:00:06:892</span>
+<span class='badge badge-success'>04.12.2023 5:33:03 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:33:10 PM</span>
+<span class='badge badge-default'>00:00:06:916</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -483,14 +508,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:07:16 PM</td>
+        <td>5:33:03 PM</td>
         <td>
           Placing a shape Polygon on the Canvas 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:07:23 PM</td>
+        <td>5:33:10 PM</td>
         <td>
           Shape Polygon Success
         </td>
@@ -502,12 +527,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="9"
           author=""
-          tag=""
+          tag="LeftToolBar"
           device="">
           <div class="test-detail">
             <p class="name">TC_09_WhiteOut_Clear</p>
             <p class="text-sm">
-              <span>4:07:23 PM</span> / <span>00:00:12:236</span>
+              <span>5:33:10 PM</span> / <span>00:00:12:314</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -516,13 +541,14 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">TC_09_WhiteOut_Clear</h5>
-<span class='badge badge-success'>04.07.2023 4:07:23 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:07:35 PM</span>
-<span class='badge badge-default'>00:00:12:236</span>
+<span class='badge badge-success'>04.12.2023 5:33:10 PM</span>
+<span class='badge badge-danger'>04.12.2023 5:33:23 PM</span>
+<span class='badge badge-default'>00:00:12:314</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LeftToolBar</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -530,599 +556,30 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:07:23 PM</td>
+        <td>5:33:10 PM</td>
         <td>
           Erase the Object drawn started 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:07:23 PM</td>
+        <td>5:33:11 PM</td>
         <td>
           Canvas is in the whiteout Mode
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:07:23 PM</td>
+        <td>5:33:11 PM</td>
         <td>
           WhiteOut Tool is Success
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:07:35 PM</td>
+        <td>5:33:23 PM</td>
         <td>
           Object Erase Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="10"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_10_Lesson</p>
-            <p class="text-sm">
-              <span>4:08:04 PM</span> / <span>00:00:00:001</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_10_Lesson</h5>
-<span class='badge badge-success'>04.07.2023 4:08:04 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:08:04 PM</span>
-<span class='badge badge-default'>00:00:00:001</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:08:04 PM</td>
-        <td>
-          Instuctor Lesson Started
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="11"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_11_StudentDemo</p>
-            <p class="text-sm">
-              <span>4:08:14 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_11_StudentDemo</h5>
-<span class='badge badge-success'>04.07.2023 4:08:14 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:08:14 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:08:14 PM</td>
-        <td>
-          StudentDemo Started
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="12"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_12_MyBoardDownload</p>
-            <p class="text-sm">
-              <span>4:08:44 PM</span> / <span>00:00:11:393</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_12_MyBoardDownload</h5>
-<span class='badge badge-success'>04.07.2023 4:08:44 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:08:56 PM</span>
-<span class='badge badge-default'>00:00:11:393</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:08:44 PM</td>
-        <td>
-          MyBoard Download Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:08:56 PM</td>
-        <td>
-          MyBoardDownload Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="13"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_13_MyBoardUpload</p>
-            <p class="text-sm">
-              <span>4:08:56 PM</span> / <span>00:00:24:313</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_13_MyBoardUpload</h5>
-<span class='badge badge-success'>04.07.2023 4:08:56 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:09:20 PM</span>
-<span class='badge badge-default'>00:00:24:313</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:08:56 PM</td>
-        <td>
-          Upload a file Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:09:20 PM</td>
-        <td>
-          File Upload Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="14"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_14_UndoRedoZoom</p>
-            <p class="text-sm">
-              <span>4:09:23 PM</span> / <span>00:00:38:651</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_14_UndoRedoZoom</h5>
-<span class='badge badge-success'>04.07.2023 4:09:23 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:10:02 PM</span>
-<span class='badge badge-default'>00:00:38:651</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:09:23 PM</td>
-        <td>
-          Undo Redo Zoom Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:10:02 PM</td>
-        <td>
-          UNDO REDO ZOOM Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="15"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_15_LanguageChange</p>
-            <p class="text-sm">
-              <span>4:10:02 PM</span> / <span>00:00:06:995</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_15_LanguageChange</h5>
-<span class='badge badge-success'>04.07.2023 4:10:02 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:10:09 PM</span>
-<span class='badge badge-default'>00:00:06:995</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:10:02 PM</td>
-        <td>
-          LanguageChange Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:10:09 PM</td>
-        <td>
-          LanguageChange Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="16"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_16_ColourPenThickness</p>
-            <p class="text-sm">
-              <span>4:10:09 PM</span> / <span>00:00:31:871</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_16_ColourPenThickness</h5>
-<span class='badge badge-success'>04.07.2023 4:10:09 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:10:41 PM</span>
-<span class='badge badge-default'>00:00:31:871</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:10:09 PM</td>
-        <td>
-          Colour_PenThickness Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:10:41 PM</td>
-        <td>
-          Colour_PenThickness Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="17"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_17_GizmosTool</p>
-            <p class="text-sm">
-              <span>4:11:09 PM</span> / <span>00:00:23:183</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_17_GizmosTool</h5>
-<span class='badge badge-success'>04.07.2023 4:11:09 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:11:32 PM</span>
-<span class='badge badge-default'>00:00:23:183</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:11:09 PM</td>
-        <td>
-          Gizmos Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:11:32 PM</td>
-        <td>
-          GizmosTool Success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="18"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_18_WidgetYouTube</p>
-            <p class="text-sm">
-              <span>4:11:32 PM</span> / <span>00:00:36:288</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_18_WidgetYouTube</h5>
-<span class='badge badge-success'>04.07.2023 4:11:32 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:12:08 PM</span>
-<span class='badge badge-default'>00:00:36:288</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:11:32 PM</td>
-        <td>
-          YouTube widgets Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:12:08 PM</td>
-        <td>
-          YouTube widgets success
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="19"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_04_InvalidUser</p>
-            <p class="text-sm">
-              <span>4:12:37 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_04_InvalidUser</h5>
-<span class='badge badge-success'>04.07.2023 4:12:37 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:12:37 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:12:37 PM</td>
-        <td>
-          Logging in with Invalid Credentials
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="20"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_20_Login</p>
-            <p class="text-sm">
-              <span>4:12:41 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_20_Login</h5>
-<span class='badge badge-success'>04.07.2023 4:12:41 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:12:41 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:12:41 PM</td>
-        <td>
-          Login Started
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="21"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_21_PageNation</p>
-            <p class="text-sm">
-              <span>4:12:45 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_21_PageNation</h5>
-<span class='badge badge-success'>04.07.2023 4:12:45 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:12:45 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:12:45 PM</td>
-        <td>
-          Changing the pages of the Board name Started
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="22"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">TC_22_RenameBoard</p>
-            <p class="text-sm">
-              <span>4:12:46 PM</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">TC_22_RenameBoard</h5>
-<span class='badge badge-success'>04.07.2023 4:12:46 PM</span>
-<span class='badge badge-danger'>04.07.2023 4:12:46 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:12:46 PM</td>
-        <td>
-          Re-nameing the Board name Started
         </td>
       </tr>
   </tbody>
@@ -1139,30 +596,135 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">LeftToolBar</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LeftToolBar</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:31:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC_01_Pen:Click&Draw</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:31:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC_02_Click&Type</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:32:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC_03_GridTool_Apply</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:32:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC_04_GridTool_Clear</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:32:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC_05_ContentUpload</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:32:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC_06_ShapeTriangle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:32:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC_07_ShapeCircle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:33:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC_08_ShapePolygon</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:33:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC_09_WhiteOut_Clear</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Friday, April 07, 2023, 04:05 PM (IST)</h3>
+<h3>Wednesday, April 12, 2023, 05:31 PM (IST)</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Friday, April 07, 2023, 04:12 PM (IST)</h3>
+<h3>Wednesday, April 12, 2023, 05:33 PM (IST)</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>21</h3>
+<h3>9</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -1178,12 +740,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='95%'>
-<b>21</b> tests passed
+<div><small data-tooltip='100%'>
+<b>9</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='4%'><b>1</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1201,10 +763,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='19%'><b>9</b> events passed</small></div>
+<div><small data-tooltip='35%'><b>10</b> events passed</small></div>
 <div>
-<small data-tooltip='2%'><b>1</b> events failed,
-<b data-tooltip='%'>37</b> others
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>18</b> others
 </small>
 </div>
 </div>
@@ -1220,10 +782,27 @@
 </div></div>
 <script>
 var timeline = {
-"TC_01_Pen:Click&Draw":19.156,"TC_02_Click&Type":11.775,"TC_03_GridTool_Apply":9.455,"TC_04_GridTool_Clear":12.83,"TC_05_ContentUpload":25.929,"TC_06_ShapeTriangle":7.036,"TC_07_ShapeCircle":6.692,"TC_08_ShapePolygon":6.892,"TC_09_WhiteOut_Clear":12.236,"TC_10_Lesson":0.001,"TC_11_StudentDemo":0,"TC_12_MyBoardDownload":11.393,"TC_13_MyBoardUpload":24.313,"TC_14_UndoRedoZoom":38.651,"TC_15_LanguageChange":6.995,"TC_16_ColourPenThickness":31.871,"TC_17_GizmosTool":23.183,"TC_18_WidgetYouTube":36.288,"TC_04_InvalidUser":0,"TC_20_Login":0,"TC_21_PageNation":0,"TC_22_RenameBoard":0
+"TC_01_Pen:Click&Draw":19.149,"TC_02_Click&Type":11.827,"TC_03_GridTool_Apply":9.486,"TC_04_GridTool_Clear":12.882,"TC_05_ContentUpload":26.02,"TC_06_ShapeTriangle":7.005,"TC_07_ShapeCircle":6.826,"TC_08_ShapePolygon":6.916,"TC_09_WhiteOut_Clear":12.314
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>LeftToolBar</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 <div class="col-lg-6 col-md-12 sysenv-container">
 <div class="card">
 <div class="card-header"><p>System/Environment</p></div>
@@ -1247,8 +826,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 21,
-failParent: 1,
+passParent: 9,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1264,11 +843,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 9,
-failEvents: 1,
+passEvents: 10,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 37
+infoEvents: 18
 };
 </script>        </div>
       </div>

@@ -15,6 +15,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 	@Test(priority=10)
 	public void Lesson() throws InterruptedException{
 		test=extentReport.createTest("TC_10_Lesson");  
+		test.assignCategory("Top Tool Bar");
 		test.log(Status.INFO, "Instuctor Lesson Started");
 		LoggerLoad.info("Instuctor Lesson Started");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);	
@@ -44,6 +45,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 	@Test(priority=11)
 	public void StudentDemo() throws InterruptedException{
 		test=extentReport.createTest("TC_11_StudentDemo");  
+		test.assignCategory("Top Tool Bar");
 		test.log(Status.INFO, "StudentDemo Started");
 		LoggerLoad.info("StudentDemo Started");
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);		
@@ -56,15 +58,14 @@ public class TopToolBarFunctionalities extends BaseClass {
 
 	@Test(priority=12)
 	public void MyBoardDownload() throws InterruptedException{
-		test=extentReport.createTest("TC_12_MyBoardDownload");  
-		System.out.println("MyBoard Download Started");
+		test=extentReport.createTest("TC_12_MyBoardDownload"); 
+		test.assignCategory("Top Tool Bar");
 		test.log(Status.INFO, "MyBoard Download Started");
 		LoggerLoad.info("MyBoard Download Started");
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);
 		Thread.sleep(3000);
 		Top_toolbar_obj.DownloadPDF();
 		Thread.sleep(5000);
-		System.out.println("MyBoardDownload Success");
 		LoggerLoad.info("MyBoardDownload Success");
 		test.log(Status.INFO, "MyBoardDownload Success");
 
@@ -72,24 +73,19 @@ public class TopToolBarFunctionalities extends BaseClass {
 
 	@Test(priority=13)
 	public void MyBoardUpload() throws InterruptedException, AWTException{
-		test=extentReport.createTest("TC_13_MyBoardUpload");  
-		System.out.println("Upload a file Started");
+		test=extentReport.createTest("TC_13_MyBoardUpload"); 
+		test.assignCategory("Top Tool Bar");
 		LoggerLoad.info("Upload a file Started");
 		test.log(Status.INFO, "Upload a file Started");
 		UploadPOM upload_obj = new UploadPOM(driver);
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);
 		Thread.sleep(5000);
 		upload_obj.uploadClick();
-		System.out.println("Upload menu Clicked");
-		
 		Thread.sleep(3000);
 		upload_obj.uploadSubClick();
-		System.out.println("Upload Sub menu Clicked");
-		
 		Thread.sleep(3000);
 		String path= readconfig.getdownloaded_FilePath();
 		upload_obj.SelectFile(path);
-		System.out.println("File Upload Success");
 		LoggerLoad.info("File Upload Success");
 		test.log(Status.INFO, "File Upload Success");
 		Top_toolbar_obj.delete_operation();
@@ -99,8 +95,8 @@ public class TopToolBarFunctionalities extends BaseClass {
 
 	@Test(priority=14)
 	public void UndoRedoZoom() throws InterruptedException {
-		test=extentReport.createTest("TC_14_UndoRedoZoom");  
-		System.out.println("Undo Redo Zoom Started");
+		test=extentReport.createTest("TC_14_UndoRedoZoom"); 
+		test.assignCategory("Top Tool Bar");
 		LoggerLoad.info("Undo Redo Zoom Started");
 		test.log(Status.INFO, "Undo Redo Zoom Started");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);	
@@ -113,7 +109,6 @@ public class TopToolBarFunctionalities extends BaseClass {
 		Thread.sleep(3000);
 		dt.canvasClick();
 		dt.clickAndType1();
-
 		Top_toolbar_obj.undo_operation();
 		Thread.sleep(3000);
 		Top_toolbar_obj.undo_operation();
@@ -132,7 +127,6 @@ public class TopToolBarFunctionalities extends BaseClass {
 		Thread.sleep(2000);
 		Top_toolbar_obj.delete_operation();
 		Thread.sleep(3000);
-		System.out.println("UNDO REDO ZOOM Success");
 		LoggerLoad.info("UNDO REDO ZOOM Success");
 		test.log(Status.INFO, "UNDO REDO ZOOM Success");
 	}
@@ -140,9 +134,9 @@ public class TopToolBarFunctionalities extends BaseClass {
 
 	@Test(priority=15)
 	public void LanguageChange() throws InterruptedException{
-		test=extentReport.createTest("TC_15_LanguageChange");  
+		test=extentReport.createTest("TC_15_LanguageChange");
+		test.assignCategory("Top Tool Bar");
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);
-		System.out.println("LanguageChange Started");
 		LoggerLoad.info("LanguageChange Started");
 		test.log(Status.INFO, "LanguageChange Started");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);	
@@ -154,7 +148,6 @@ public class TopToolBarFunctionalities extends BaseClass {
 		Top_toolbar_obj.English();
 		Thread.sleep(3000);
 		//dt.closehamburgerClick();
-		System.out.println("LanguageChange Success");
 		LoggerLoad.info("LanguageChange Success");
 		test.log(Status.INFO, "LanguageChange Success");
 
@@ -163,7 +156,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 	@Test(priority=16)
 	public void ColourPenThickness() throws InterruptedException{
 		test=extentReport.createTest("TC_16_ColourPenThickness");  
-		System.out.println("Colour_PenThickness Started");
+		test.assignCategory("Top Tool Bar");
 		LoggerLoad.info("Colour_PenThickness Started");
 		test.log(Status.INFO, "Colour_PenThickness Started");
 		//Changing Thickness
@@ -187,7 +180,6 @@ public class TopToolBarFunctionalities extends BaseClass {
 		Thread.sleep(3000);
 		Top_toolbar_obj.delete_operation();
 		Thread.sleep(3000);
-		System.out.println("Colour_PenThickness Success");	
 		LoggerLoad.info("Colour_PenThickness Success");
 		test.log(Status.INFO, "Colour_PenThickness Success");
 

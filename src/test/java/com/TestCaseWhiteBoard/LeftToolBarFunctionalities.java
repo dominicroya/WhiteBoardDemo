@@ -19,6 +19,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 	@Test(priority=1)
 	public void PenDraw() throws InterruptedException{
 		test=extentReport.createTest("TC_01_Pen:Click&Draw");  
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Drawing on the Canvas using a Free Hand Pen Tool");
 		LoggerLoad.info("Drawing on the Canvas using a Free Hand Pen Tool");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);	
@@ -45,9 +46,11 @@ public class LeftToolBarFunctionalities extends BaseClass {
 		
 		extentReport.flush();
 	}
+	
 	@Test(priority=2)
 	public void ClicknType() throws InterruptedException {
-		test=extentReport.createTest("TC_02_Click&Type");  
+		test=extentReport.createTest("TC_02_Click&Type"); 
+		test.assignCategory("Left Tool Bar");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);
 		TopToolBarPOM ttb=new TopToolBarPOM(driver);
 		test.log(Status.INFO, "Click and Type tools is selected from WRITE Tab");
@@ -62,7 +65,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 		test.log(Status.INFO, "Getting the Canvas Mode after selecting the Write Tool");
 		test.log(Status.INFO, "Expected Mode: Text Text ");
 		test.log(Status.INFO, "Current Mode:"+CanvasMode);
-		if(CanvasMode.equals("Circle")) {
+		if(CanvasMode.equals("Text Text")) {
 			test.log(Status.PASS, "Canvas is in the Text Text Mode");
 			test.log(Status.INFO, "Click & Type Tool is Success");
 		}else {
@@ -74,7 +77,8 @@ public class LeftToolBarFunctionalities extends BaseClass {
 		
 	@Test(priority=3)
 	public void GridTool() throws InterruptedException{
-		test=extentReport.createTest("TC_03_GridTool_Apply");  
+		test=extentReport.createTest("TC_03_GridTool_Apply"); 
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Applying Grid on the Canvas ");
 		LoggerLoad.info("Applying Grid on the Canvas ");
 		System.out.println("Get to Grid  Started");
@@ -92,7 +96,8 @@ public class LeftToolBarFunctionalities extends BaseClass {
 
 	@Test(priority=4)
 	public void ClearGrid() throws InterruptedException{
-		test=extentReport.createTest("TC_04_GridTool_Clear");  
+		test=extentReport.createTest("TC_04_GridTool_Clear"); 
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Removing Grid on the Canvas ");
 		LoggerLoad.info("Applying Grid on the Canvas ");
 		ToolsPOM t1 = new ToolsPOM(driver);
@@ -113,6 +118,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 	@Test(priority=5)
 	public void ContentUpload() throws InterruptedException, AWTException {
 		test=extentReport.createTest("TC_05_ContentUpload");  
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Uploading a picture on the Canvas ");
 		LoggerLoad.info("Uploading a picture on the Canvas ");
 		System.out.println("Upload a file Started");
@@ -138,6 +144,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 	@Test(priority=6)
 	public void ShapeTriangle() throws InterruptedException{
 		test=extentReport.createTest("TC_06_ShapeTriangle");  
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Placing a shape triangle on the Canvas ");
 		LoggerLoad.info("Placing a shape triangle on the Canvas ");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);
@@ -158,7 +165,8 @@ public class LeftToolBarFunctionalities extends BaseClass {
 	}
 	@Test(priority=7)
 	public void ShapeCircle() throws InterruptedException{
-		test=extentReport.createTest("TC_07_ShapeCircle");  
+		test=extentReport.createTest("TC_07_ShapeCircle"); 
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Placing a shape Circle on the Canvas ");
 		LoggerLoad.info("Placing a shape Circle on the Canvas ");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);
@@ -178,6 +186,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 	@Test(priority=8)
 	public void ShapePolygon() throws InterruptedException{
 		test=extentReport.createTest("TC_08_ShapePolygon");  
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Placing a shape Polygon on the Canvas ");
 		LoggerLoad.info("Placing a shape Polygon on the Canvas ");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);
@@ -198,6 +207,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 	@Test(priority=9)
 	public void WhiteOut() throws InterruptedException{
 		test=extentReport.createTest("TC_09_WhiteOut_Clear");  
+		test.assignCategory("Left Tool Bar");
 		test.log(Status.INFO, "Erase the Object drawn started ");
 		LoggerLoad.info("Erase the Object drawn started");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);
