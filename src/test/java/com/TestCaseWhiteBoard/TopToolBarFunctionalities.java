@@ -20,11 +20,15 @@ public class TopToolBarFunctionalities extends BaseClass {
 		LoggerLoad.info("Instuctor Lesson Started");
 		DrawingToolsPom dt=new DrawingToolsPom(driver);	
 		dt.drawingBtnClick();
+		Thread.sleep(2000);
 		dt.shapesClick();
+		Thread.sleep(2000);
 		dt.polygonClick();
 		Thread.sleep(2000);
 		dt.sendSides();
+		Thread.sleep(2000);
 		dt.polygonPositioning();
+		Thread.sleep(2000);
 		dt.polygonLesson();
 		LoggerLoad.info("Shape Polygon Success");
 		dt.drawingBtnClick();
@@ -35,7 +39,8 @@ public class TopToolBarFunctionalities extends BaseClass {
 		Thread.sleep(2000);
 		dt.sendAngles();
 		//Thread.sleep(2000);
-		dt.trianglePositioning();	
+		dt.trianglePositioning();
+		Thread.sleep(2000);
 		dt.triangleLesson();
 		LoggerLoad.info("Shape Triangle Success");
 		LoggerLoad.info("Instuctor Lesson Success");
@@ -50,7 +55,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 		LoggerLoad.info("StudentDemo Started");
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);		
 		Top_toolbar_obj.student();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		Top_toolbar_obj.participants_panel();
 		LoggerLoad.info("StudentDemo Success");
 		
@@ -63,7 +68,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 		test.log(Status.INFO, "MyBoard Download Started");
 		LoggerLoad.info("MyBoard Download Started");
 		TopToolBarPOM Top_toolbar_obj = new TopToolBarPOM(driver);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		Top_toolbar_obj.DownloadPDF();
 		Thread.sleep(5000);
 		LoggerLoad.info("MyBoardDownload Success");

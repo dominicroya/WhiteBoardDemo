@@ -1,21 +1,29 @@
 package com.POMWhiteBoard;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DrawingToolsPom {
 	public WebDriver driver;
+	protected WebDriverWait wait;
+	
 	Actions act;
 	public DrawingToolsPom(WebDriver driver) {
 		this.driver=driver;	
+		wait = new WebDriverWait(driver, 20);
 		PageFactory.initElements(driver, this);
 	}
 		
 	@FindBy(xpath = "//*[@id=\"drawToolsIcon\"]/button[2]")
 	public WebElement drawingBtn;
+	
+	By Curve=By.xpath("//h6[.='Curve']");
 
 	@FindBy(xpath= "//h6[.='Pen (Click & Draw)']")
 	public WebElement drawingPen;
@@ -68,33 +76,41 @@ public class DrawingToolsPom {
 	@FindBy(xpath="//h6[.='Whiteout']")
 	WebElement whiteoutBtn;
 	
-	@FindBy(xpath="//*[@class='MuiSvgIcon-root jss123']")
+	@FindBy(xpath="//*[@class='MuiSvgIcon-root jss108']")
 	WebElement closedrawer;
 	
+		
 	public void hamburgerClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(openDrawer));	
 		openDrawer.click();			
 	}
 
 	public void closehamburgerClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(closedrawer));
 		closedrawer.click();			
 	}
 	public void drawingBtnClick() {
+		//wait.until(ExpectedConditions.elementToBeClickable(drawingBtn));
 		drawingBtn.click();			
 	}
 
 	public void drawingPenClick() {
+		//wait.until(ExpectedConditions.elementToBeClickable(drawingPen));
 		drawingPen.click();			
 	}
 
 	public void canvasClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(canvas));
 		canvas.click();			
 	}
 
 	public void writeClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(writeBtn));
 		writeBtn.click();			
 	}
 
 	public void clickType() {
+		wait.until(ExpectedConditions.elementToBeClickable(clickNType));
 		clickNType.click();			
 	}
 
@@ -173,35 +189,43 @@ public class DrawingToolsPom {
 
 
 	public void CurveClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(curveBtn));
 		curveBtn.click();
 	}
 
 	public void shapesClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(shapes));
 		shapes.click();
 	}
 
 	public void circleClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(shapesCircle));
 		shapesCircle.click();
 	}
 
 	public void triangleClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(shapesTriangle));
 		shapesTriangle.click();
 	}
 
 	public void rectangleClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(shapesRectangle));
 		shapesRectangle.click();
 	}
 
 	public void polygonClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(shapesPolygon));
 		shapesPolygon.click();
 	}
 
 	public void sendAngles() {
+		wait.until(ExpectedConditions.elementToBeClickable(anglestextBox));
 		anglestextBox.click();
 		anglestextBox.sendKeys("60,60");
 		setBtn.click();	
 	}
 	public void sendSides() {
+		wait.until(ExpectedConditions.elementToBeClickable(anglestextBox));
 		anglestextBox.click();
 		anglestextBox.sendKeys("5");
 		setBtn.click();	
@@ -251,12 +275,15 @@ public class DrawingToolsPom {
 		act.moveToElement(canvas, 90, -30).release().perform();	
 	}
 	public void eraserBtnClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(eraserBtn));
 		eraserBtn.click();
 	}
 	public void objEraserClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(objEraserBtn));
 		objEraserBtn.click();
 	}
 	public void whiteOutClick() {
+		wait.until(ExpectedConditions.elementToBeClickable(whiteoutBtn));
 		whiteoutBtn.click();
 	}
 	public void moveEraser() throws InterruptedException{

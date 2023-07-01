@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Functional Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 12 17:31:16 IST 2023</td>
+<td>Started on:</td><td>Sat Jul 01 10:01:13 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>127 seconds (127785 ms)</td>
+<tr><td>Total time:</td><td>457 seconds (457659 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,314 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.ColourPenThickness()'><b>ColourPenThickness</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;drawToolsIcon&quot;]/button[2]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DTBLR01LP124&apos;, ip: &apos;192.168.137.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 002b2c9bfa2fa4822c0fe9ce23b2361f
+*** Element info: {Using=xpath, value=//*[@id=&quot;drawToolsIcon&quot;]/button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.POMWhiteBoard.DrawingToolsPom.drawingBtnClick(DrawingToolsPom.java:94)
+	at com.TestCaseWhiteBoard.TopToolBarFunctionalities.ColourPenThickness(TopToolBarFunctionalities.java:171)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1383031847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1383031847'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;drawToolsIcon&quot;]/button[2]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DTBLR01LP124&apos;, ip: &apos;192.168.137.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 002b2c9bfa2fa4822c0fe9ce23b2361f
+*** Element info: {Using=xpath, value=//*[@id=&quot;drawToolsIcon&quot;]/button[2]}
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.POMWhiteBoard.DrawingToolsPom.drawingBtnClick(DrawingToolsPom.java:94)
+	at com.TestCaseWhiteBoard.TopToolBarFunctionalities.ColourPenThickness(TopToolBarFunctionalities.java:171)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>3</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.LowerToolBarFunctionalities.InvalidUser()'><b>InvalidUser</b><br>Test class: com.TestCaseWhiteBoard.LowerToolBarFunctionalities</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Logged in Succesfull] but found [User does not exist.]
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.InvalidUser(LowerToolBarFunctionalities.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2036353726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2036353726'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Logged in Succesfull] but found [User does not exist.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.InvalidUser(LowerToolBarFunctionalities.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>10</td>
+<td>com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.LanguageChange()'><b>LanguageChange</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;حمل شارك&apos;]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DTBLR01LP124&apos;, ip: &apos;192.168.137.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 002b2c9bfa2fa4822c0fe9ce23b2361f
+*** Element info: {Using=xpath, value=//button[@title=&apos;حمل شارك&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.getAttribute(Unknown Source)
+	at com.POMWhiteBoard.TopToolBarPOM.Language(TopToolBarPOM.java:229)
+	at com.TestCaseWhiteBoard.TopToolBarFunctionalities.LanguageChange(TopToolBarFunctionalities.java:150)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace458624688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace458624688'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;حمل شارك&apos;]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DTBLR01LP124&apos;, ip: &apos;192.168.137.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 002b2c9bfa2fa4822c0fe9ce23b2361f
+*** Element info: {Using=xpath, value=//button[@title=&apos;حمل شارك&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.getAttribute(Unknown Source)
+	at com.POMWhiteBoard.TopToolBarPOM.Language(TopToolBarPOM.java:229)
+	at com.TestCaseWhiteBoard.TopToolBarFunctionalities.LanguageChange(TopToolBarFunctionalities.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>3</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.LowerToolBarFunctionalities.Login()'><b>Login</b><br>Test class: com.TestCaseWhiteBoard.LowerToolBarFunctionalities</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@class=&apos;MuiSvgIcon-root ndCloseIcon&apos;]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.Login(LowerToolBarFunctionalities.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;MuiSvgIcon-root ndCloseIcon&apos;]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DTBLR01LP124&apos;, ip: &apos;192.168.137.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62e48d52d6480e3aaf70de283983ed4a
+*** Element info: {Using=xpath, value=//*[@class=&apos;MuiSvgIcon-root ndCloseIcon&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 25 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1199141889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1199141889'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@class=&apos;MuiSvgIcon-root ndCloseIcon&apos;]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.TestCaseWhiteBoard.LowerToolBarFunctionalities.Login(LowerToolBarFunctionalities.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;MuiSvgIcon-root ndCloseIcon&apos;]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DTBLR01LP124&apos;, ip: &apos;192.168.137.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DOMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62e48d52d6480e3aaf70de283983ed4a
+*** Element info: {Using=xpath, value=//*[@class=&apos;MuiSvgIcon-root ndCloseIcon&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 25 more
+</pre></div></td>
+<td>37</td>
+<td>com.TestCaseWhiteBoard.LowerToolBarFunctionalities@43a25848</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,48 +385,83 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.ClearGrid()'><b>ClearGrid</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>12</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>13</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.ClicknType()'><b>ClicknType</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>11</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>12</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.ContentUpload()'><b>ContentUpload</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>26</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>27</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.RightToolBarFunctionalities.GizmosTool()'><b>GizmosTool</b><br>Test class: com.TestCaseWhiteBoard.RightToolBarFunctionalities</td>
+<td></td>
+<td>23</td>
+<td>com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.GridTool()'><b>GridTool</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
 <td>9</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.Lesson()'><b>Lesson</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td></td>
+<td>22</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.MyBoardDownload()'><b>MyBoardDownload</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td></td>
+<td>16</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.MyBoardUpload()'><b>MyBoardUpload</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td></td>
+<td>28</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.PenDraw()'><b>PenDraw</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>19</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>20</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.ShapeCircle()'><b>ShapeCircle</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>6</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>7</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.ShapePolygon()'><b>ShapePolygon</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>6</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>7</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.ShapeTriangle()'><b>ShapeTriangle</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
 <td>7</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.StudentDemo()'><b>StudentDemo</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td></td>
+<td>32</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.TopToolBarFunctionalities.UndoRedoZoom()'><b>UndoRedoZoom</b><br>Test class: com.TestCaseWhiteBoard.TopToolBarFunctionalities</td>
+<td></td>
+<td>42</td>
+<td>com.TestCaseWhiteBoard.TopToolBarFunctionalities@49e4cb85</td></tr>
 <tr>
 <td title='com.TestCaseWhiteBoard.LeftToolBarFunctionalities.WhiteOut()'><b>WhiteOut</b><br>Test class: com.TestCaseWhiteBoard.LeftToolBarFunctionalities</td>
 <td></td>
-<td>12</td>
-<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@27f674d</td></tr>
+<td>13</td>
+<td>com.TestCaseWhiteBoard.LeftToolBarFunctionalities@7c30a502</td></tr>
+<tr>
+<td title='com.TestCaseWhiteBoard.RightToolBarFunctionalities.WidgetYouTube()'><b>WidgetYouTube</b><br>Test class: com.TestCaseWhiteBoard.RightToolBarFunctionalities</td>
+<td></td>
+<td>36</td>
+<td>com.TestCaseWhiteBoard.RightToolBarFunctionalities@2133c8f8</td></tr>
 </table><p>
 </body>
 </html>

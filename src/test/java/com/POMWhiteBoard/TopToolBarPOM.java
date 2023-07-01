@@ -12,15 +12,18 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 import com.UtilitiesWhiteBoard.ReadConfig;
 
 public class TopToolBarPOM {
-
+	public WebDriver driver;
+	protected WebDriverWait wait;
 	ReadConfig readconfig1 = new ReadConfig();
-	public static WebDriver driver;
 	public TopToolBarPOM(WebDriver driver){
-		TopToolBarPOM.driver=driver;
+		this.driver=driver;
+		wait = new WebDriverWait(driver, 20);
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -125,9 +128,11 @@ public class TopToolBarPOM {
 	}
 
 	public void DownloadPDF() throws InterruptedException {
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		downloadUI.click();
+		Thread.sleep(2000);
 		downloadPDF.click();
+		Thread.sleep(2000);
 		myBoardPDF.click();
 	}
 
@@ -138,17 +143,21 @@ public class TopToolBarPOM {
 
 
 	public void undo_operation() {
-
+		wait.until(ExpectedConditions.elementToBeClickable(undo));	
 		undo.click();
 	}
 
 	public void redo_operation() {
+		wait.until(ExpectedConditions.elementToBeClickable(redo));	
 		redo.click();
 	}
 
 	public void delete_operation() {
+		wait.until(ExpectedConditions.elementToBeClickable(delete_menu));	
 		delete_menu.click();
+		wait.until(ExpectedConditions.elementToBeClickable(delete_submenu_page));	
 		delete_submenu_page.click();
+		wait.until(ExpectedConditions.elementToBeClickable(delete_confirm));	
 		delete_confirm.click();
 	}
 
@@ -168,7 +177,9 @@ public class TopToolBarPOM {
 	}
 
 	public void pen_thickness_operation() {
+		wait.until(ExpectedConditions.elementToBeClickable(pen_thickness));	
 		pen_thickness.click();
+		wait.until(ExpectedConditions.elementToBeClickable(pen_thickness_size));	
 		pen_thickness_size.click();
 		Actions point = new Actions(driver);
 
@@ -181,13 +192,16 @@ public class TopToolBarPOM {
 	}
 
 	public void colour_operation() throws InterruptedException {
+		wait.until(ExpectedConditions.elementToBeClickable(colour_picker));	
 		colour_picker.click();
 		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(colour_blue));	
 		colour_blue.click();
+		wait.until(ExpectedConditions.elementToBeClickable(colour_tab_close));	
 		colour_tab_close.click();
 	}
 
-	public void Language()  {
+	public void Language() throws InterruptedException  {
 
 		Languages.click();
 		Boolean flag = false;
@@ -210,7 +224,8 @@ public class TopToolBarPOM {
 				Action lan = obj1.sendKeys(Keys.ARROW_DOWN).build();
 				lan.perform();
 			}
-		}	
+		}
+		Thread.sleep(3000);
 		String language_actual = Hindi_validation.getAttribute("title");
 		String language_expected = "حمل شارك";
 
@@ -227,10 +242,13 @@ public class TopToolBarPOM {
 			obj.assertTrue(false);
 			System.out.println("Error Occured while changing the language"+" "+readconfig1.expected_language());
 		}
+		obj.assertAll();
+		Thread.sleep(3000);
 	}
 	public void English() 
 	{
 		Boolean flag = false;
+		wait.until(ExpectedConditions.elementToBeClickable(Languages1));	
 		Languages1.click();
 		for(WebElement temp_language:Hindi_select)
 		{
@@ -255,9 +273,10 @@ public class TopToolBarPOM {
 	}
 
 	public void student() throws InterruptedException  {
-
+		wait.until(ExpectedConditions.elementToBeClickable(three_verticals));	
 		three_verticals.click();
 		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(student_option));	
 		student_option.click();
 		Thread.sleep(5000);
 		String Main_window = driver.getWindowHandle();
@@ -275,8 +294,10 @@ public class TopToolBarPOM {
 				driver.switchTo().window(ChildWindow);
 				Thread.sleep(5000);
 				student_name.sendKeys(readconfig1.Student_detail());
+				wait.until(ExpectedConditions.elementToBeClickable(Student_join));	
 				Student_join.click();
 				Thread.sleep(5000);
+				wait.until(ExpectedConditions.elementToBeClickable(student_writebtn));	
 				student_writebtn.click();
 
 				DrawingToolsPom dt = new DrawingToolsPom(driver);
@@ -289,12 +310,15 @@ public class TopToolBarPOM {
 	}
 
 	public void participants_panel() throws InterruptedException  {
+		wait.until(ExpectedConditions.elementToBeClickable(participants));	
 		participants.click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,350)", "");
 		Thread.sleep(3000);
+		wait.until(ExpectedConditions.elementToBeClickable(showcase));	
 		showcase.click();
 		Thread.sleep(3000);
+		wait.until(ExpectedConditions.elementToBeClickable(showcase_disable));	
 		showcase_disable.click();
 
 	}

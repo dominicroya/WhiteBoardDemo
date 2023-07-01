@@ -1,12 +1,8 @@
 package com.UtilitiesWhiteBoard;
 
-import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
@@ -71,5 +67,5 @@ public class ListenersTestNG extends BaseClass implements ITestListener, IAnnota
 
 		annotation.setRetryAnalyzer(RetryFailTestCase.class);
 	}
-
+	
 }

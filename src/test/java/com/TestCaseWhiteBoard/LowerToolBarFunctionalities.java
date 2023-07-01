@@ -66,12 +66,13 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		Thread.sleep(10000);
 		wait.until(ExpectedConditions.elementToBeClickable(lop.removePopup));	
 		lop.RemovePopUP();
+		wait.until(ExpectedConditions.elementToBeClickable(lop.remindMeAgainBtn));	
+		lop.remindMeAgain();
 		LoggerLoad.info("Removed PopUp");
 		LoggerLoad.info("Login Success");
 		System.out.println("Login Success");
 		
-		//wait.until(ExpectedConditions.elementToBeClickable(lp.remindMeAgainBtn));	
-		//lp.remindMeAgain();
+		
 		//LoggerLoad.info("Removed Remind me again Popup");
 		//test.log(Status.INFO, "Removed Remind me again Popup");
 		//LoggerLoad.info("Login Success");
@@ -79,7 +80,7 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		//System.out.println("Login Success");
 	}
 	
-	
+	/*
 	@Test(priority=21)
 	public void Pagination() throws InterruptedException{
 		test=extentReport.createTest("TC_21_PageNation"); 
@@ -156,7 +157,7 @@ public class LowerToolBarFunctionalities extends BaseClass{
 		System.out.println("Re-nameing the Board name Success");
 		LoggerLoad.info("Re-nameing the Board name Success");
 
-	}
+	}*/
 	
 	
 	

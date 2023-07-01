@@ -9,6 +9,47 @@
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities"/>
     </classes>
   </test> <!-- Functional Test -->
+  <test name="Functional Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TestCaseWhiteBoard.RightToolBarFunctionalities">
+        <methods>
+          <include name="screenShot"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.TestCaseWhiteBoard.RightToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.LeftToolBarFunctionalities">
+        <methods>
+          <include name="screenShot"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="ExtentReport"/>
+        </methods>
+      </class> <!-- com.TestCaseWhiteBoard.LeftToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities">
+        <methods>
+          <include name="ColourPenThickness"/>
+          <include name="screenShot"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="LanguageChange"/>
+        </methods>
+      </class> <!-- com.TestCaseWhiteBoard.TopToolBarFunctionalities -->
+      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities">
+        <methods>
+          <include name="InvalidUser"/>
+          <include name="screenShot"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.TestCaseWhiteBoard.LowerToolBarFunctionalities -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

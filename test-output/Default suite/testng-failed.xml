@@ -3,20 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities"/>
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="com.TestCaseWhiteBoard.LowerToolBarFunctionalities">
+      <class name="com.TestCaseWhiteBoard.TopToolBarFunctionalities">
         <methods>
-          <include name="InvalidUser"/>
-          <include name="RenameBoard"/>
-          <include name="Pagination"/>
-          <include name="Login"/>
+          <include name="ColourPenThickness"/>
+          <include name="LanguageChange"/>
           <include name="ExtentReport"/>
         </methods>
-      </class> <!-- com.TestCaseWhiteBoard.LowerToolBarFunctionalities -->
+      </class> <!-- com.TestCaseWhiteBoard.TopToolBarFunctionalities -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
