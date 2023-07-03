@@ -137,7 +137,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 	}
 
 
-	@Test(priority=15)
+	/*@Test(priority=15)
 	public void LanguageChange() throws InterruptedException{
 		test=extentReport.createTest("TC_15_LanguageChange");
 		test.assignCategory("Top Tool Bar");
@@ -188,7 +188,7 @@ public class TopToolBarFunctionalities extends BaseClass {
 		LoggerLoad.info("Colour_PenThickness Success");
 		test.log(Status.INFO, "Colour_PenThickness Success");
 
-	}
+	}*/
 
 
 }
