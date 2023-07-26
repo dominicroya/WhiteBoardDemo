@@ -28,7 +28,7 @@ public class DrawingToolsPom {
 	@FindBy(xpath= "//h6[.='Pen (Click & Draw)']")
 	public WebElement drawingPen;
 
-	@FindBy(id = "canvas_drawing")
+	@FindBy(id = "freehand_overlay_canvas")
 	WebElement canvas;
 	
 	@FindBy(id = "openDrawer")
