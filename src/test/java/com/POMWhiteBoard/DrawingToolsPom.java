@@ -29,6 +29,9 @@ public class DrawingToolsPom {
 	public WebElement drawingPen;
 
 	@FindBy(id = "freehand_overlay_canvas")
+	WebElement canvas1;
+	
+	@FindBy(id = "canvas_drawing")
 	WebElement canvas;
 	
 	@FindBy(id = "openDrawer")
@@ -99,6 +102,11 @@ public class DrawingToolsPom {
 		drawingPen.click();			
 	}
 
+	public void canvasClick1() {
+		wait.until(ExpectedConditions.elementToBeClickable(canvas));
+		canvas1.click();			
+	}
+	
 	public void canvasClick() {
 		wait.until(ExpectedConditions.elementToBeClickable(canvas));
 		canvas.click();			
@@ -117,17 +125,17 @@ public class DrawingToolsPom {
 	public void clickAndHold1() {
 		act=new Actions(driver);
 
-		act.clickAndHold(canvas).moveByOffset(-30, 60).moveByOffset(30, 40).moveByOffset(30, -40).moveByOffset(-30, -60)
+		act.clickAndHold(canvas1).moveByOffset(-30, 60).moveByOffset(30, 40).moveByOffset(30, -40).moveByOffset(-30, -60)
 		.moveByOffset(60, -30).moveByOffset(40, 30).moveByOffset(-40, 30).moveByOffset(-60, -30)
 		.moveByOffset(-30, -60).moveByOffset(30, -40).moveByOffset(30, 40).moveByOffset(-30, 60)
 		.moveByOffset(-60, -30).moveByOffset(-40, 30).moveByOffset(40, 30).moveByOffset(60, -30).release().perform();
 
-		act.clickAndHold(canvas).moveByOffset(-60, 120).moveByOffset(60, 80).moveByOffset(60, -80).moveByOffset(-60, -120)
+		act.clickAndHold(canvas1).moveByOffset(-60, 120).moveByOffset(60, 80).moveByOffset(60, -80).moveByOffset(-60, -120)
 		.moveByOffset(120, -60).moveByOffset(80, 60).moveByOffset(-80, 60).moveByOffset(-120, -60)
 		.moveByOffset(-60, -120).moveByOffset(60, -80).moveByOffset(60, 80).moveByOffset(-60, 120)
 		.moveByOffset(-120, -60).moveByOffset(-80, 60).moveByOffset(80, 60).moveByOffset(120, -60).release().perform();
 
-		/*act.clickAndHold(canvas).moveByOffset(-10,100).
+		/*act.clickAndHold(canvas1).moveByOffset(-10,100).
 		moveByOffset(-100,10).
 		moveByOffset(-10,100).
 		moveByOffset(-50,-10).
@@ -140,7 +148,7 @@ public class DrawingToolsPom {
 	}
 	public void clickAndHold2() {
 		act=new Actions(driver);
-		act.clickAndHold(canvas).moveByOffset(100,10).
+		act.clickAndHold(canvas1).moveByOffset(100,10).
 		moveByOffset(10,100).
 		moveByOffset(100,10).
 		moveByOffset(-10,-50).
@@ -153,7 +161,7 @@ public class DrawingToolsPom {
 
 	public void clickAndHold() {
 		act=new Actions(driver);
-		act.clickAndHold(canvas).moveByOffset(100,-100).
+		act.clickAndHold(canvas1).moveByOffset(100,-100).
 		moveByOffset(-100,-100).
 		moveByOffset(-100,100).
 		moveByOffset(100,100).
@@ -173,7 +181,7 @@ public class DrawingToolsPom {
 
 	public void clickAndType() {
 		act=new Actions(driver);
-		act.moveByOffset(200, -100).click().build().perform();
+		act.moveToElement(canvas, 200, -100).click();
 		canvas.sendKeys("Welcome to WhiteBoard.Chat");
 	}
 	
