@@ -29,7 +29,7 @@ public class LeftToolBarFunctionalities extends BaseClass {
 		Thread.sleep(3000);
 		dt.drawingPenClick();
 		Thread.sleep(3000);
-		dt.canvasClick();
+		dt.canvasClick1();
 		dt.clickAndHold1();
 		Thread.sleep(2000);
 		String CanvasMode=ttb.getCanvasMode();
